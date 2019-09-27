@@ -1,0 +1,1410 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2019-09-27T14:27:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/251147582",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "26",
+        "addr:postcode": "48143",
+        "addr:street": "Alter Fischmarkt",
+        "amenity": "nightclub",
+        "name": "Schwarzes Schaf",
+        "opening_hours": "We-Sa 20:00 - 03:00",
+        "smoking": "separated",
+        "website": "http://www.schaf.ms/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6292678,
+          51.9634352
+        ]
+      },
+      "id": "node/251147582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/271428122",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "14",
+        "addr:postcode": "48143",
+        "addr:street": "Kreuzstraße",
+        "alt_name": "Rote Liebe",
+        "amenity": "bar",
+        "contact:phone": "+49 173 17300770",
+        "contact:website": "www.roteliebe-muenster.de",
+        "food": "no",
+        "name": "Rote Liebe",
+        "opening_hours": "Mo-Sa 19:00-02:00",
+        "outdoor_seating": "yes",
+        "smoking": "separated",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6214338,
+          51.9660125
+        ]
+      },
+      "id": "node/271428122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/271428124",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housename": "Himmel & Hölle",
+        "addr:housenumber": "28,29",
+        "addr:postcode": "48143",
+        "addr:street": "Kreuzstraße",
+        "alt_name": "Diary of Jane",
+        "amenity": "bar",
+        "entry_fee": "no",
+        "happy_hour": "Mo-Sa 20:00-03:00 || various offers",
+        "name": "Himmel & Hölle",
+        "opening_hours": "Su off; Mo-Tu,Th 19:00-02:00, We,Fr,Sa 19:00-03:00",
+        "outdoor_seating": "yes",
+        "phone": "+49 251 9876384",
+        "smoking": "yes",
+        "website": "http://himmelhoellebar.de/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6215216,
+          51.9662741
+        ]
+      },
+      "id": "node/271428124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/273815375",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "41",
+        "addr:postcode": "48143",
+        "addr:street": "Jüdefelderstraße",
+        "amenity": "bar",
+        "contact:phone": "0251-51 99 97",
+        "contact:website": "http://www.studentenpilot.de/studentenleben/kneipen/p02000a/bar-zillus_muenster_374.htm",
+        "food": "no",
+        "name": "Bar Zillus",
+        "opening_hours": "Mo-Th 20:00-01:00, Fr-Sa 20:00-02:00",
+        "outdoor_seating": "no",
+        "smoking": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6183022,
+          51.9662296
+        ]
+      },
+      "id": "node/273815375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/273815422",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "10",
+        "addr:postcode": "48143",
+        "addr:street": "Rosenplatz",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/mokelbar/",
+        "name": "Mokel Bar",
+        "opening_hours": "Mo 18:00-03:00; Th 18:00-01:00; We-Sa 18:00-02:00; Su Off",
+        "outdoor_seating": "yes",
+        "phone": "+49 251 37964548",
+        "website": "https://www.mokelbar.de",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6217994,
+          51.9651182
+        ]
+      },
+      "id": "node/273815422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/273815545",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housename": "Bullenkopp",
+        "addr:housenumber": "24",
+        "addr:postcode": "48143",
+        "addr:street": "Alter Fischmarkt",
+        "amenity": "bar",
+        "brewery": "Astra",
+        "email": "kontakt@bullenkopp.com",
+        "entry_fee": "no",
+        "food": "no",
+        "happy_hour": "Mo-Sa 19:00-21:30",
+        "name": "Bullenkopp",
+        "opening_hours": "Mo-Sa 20:00-03:00",
+        "phone": "+49 251 4841208",
+        "smoking": "no",
+        "website": "http://www.bullenkopp.com/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6294008,
+          51.9635285
+        ]
+      },
+      "id": "node/273815545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/352920088",
+        "amenity": "nightclub",
+        "name": "Cuba Nova",
+        "opening_hours": "Mo-Sa 18:00+",
+        "opening_hours:restaurant": "18:00-23:00",
+        "phone": "+49 251 4828 200",
+        "restaurant": "yes",
+        "smoking": "separated",
+        "website": "https://www.cubanova.de/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6332148,
+          51.9576614
+        ]
+      },
+      "id": "node/352920088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/367861195",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "26b",
+        "addr:postcode": "48155",
+        "addr:street": "Hafenweg",
+        "amenity": "bar",
+        "food": "yes",
+        "level": "-1",
+        "name": "Hot Jazz Club",
+        "smoking": "no",
+        "website": "https://www.hotjazzclub.de",
+        "wheelchair": "no",
+        "wikidata": "Q1630710",
+        "wikipedia": "de:Hot Jazz Club"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.643549,
+          51.9518906
+        ]
+      },
+      "id": "node/367861195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/408993536",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "9",
+        "addr:postcode": "48155",
+        "addr:street": "Hansaring",
+        "amenity": "bar",
+        "contact:email": "mail@plan-b-ms.de",
+        "contact:phone": "+49 251 6744422",
+        "contact:website": "http://www.plan-b-ms.de",
+        "food": "no",
+        "image": "http://www.plan-b-ms.de/cms/upload/fotos/Logofoto.gif",
+        "name": "Plan B",
+        "opening_hours": "Mo-Fr 00:00-02:00,19:00-24:00; Sa,Su 00:00-04:00,19:00-24:00",
+        "operator": "Stefan Wilken und Bettina Siek GbR",
+        "outdoor_seating": "yes",
+        "ref:vatin": "DE 337/5728/2343",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6379276,
+          51.9531184
+        ]
+      },
+      "id": "node/408993536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/499647275",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "37",
+        "addr:postcode": "48143",
+        "addr:street": "Alter Steinweg",
+        "amenity": "bar",
+        "name": "Pension Schmidt",
+        "opening_hours": "Su-Th 10:00-01:00, Fr-Sa 10:00-03:00",
+        "smoking": "yes",
+        "website": "https://www.facebook.com/schmidt.pension",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6331627,
+          51.9616281
+        ]
+      },
+      "id": "node/499647275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/560807730",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "17",
+        "addr:postcode": "48143",
+        "addr:street": "Stubengasse",
+        "amenity": "bar",
+        "entry_fee": "no",
+        "food": "yes",
+        "happy_hour": "no",
+        "name": "Cafe & Bar Celona",
+        "opening_hours": "Su-Th 09:00-01:00, Fr-Sa 09:00-03:00",
+        "outdoor_seating": "yes",
+        "phone": "+49 251 48449407",
+        "toilets:wheelchair": "yes",
+        "website": "https://celona.de",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.629755,
+          51.9600928
+        ]
+      },
+      "id": "node/560807730"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/564294797",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:postcode": "48155",
+        "addr:street": "Am Hawerkamp",
+        "amenity": "bar",
+        "name": "Fusion",
+        "noise": "84.75964",
+        "website": "https://www.fusion-club.de/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6391288,
+          51.9441482
+        ]
+      },
+      "id": "node/564294797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/564294798",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "33",
+        "addr:postcode": "48155",
+        "addr:street": "Am Hawerkamp",
+        "amenity": "bar",
+        "name": "Club Favela",
+        "website": "https://www.clubfavela.de/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6392079,
+          51.9444187
+        ]
+      },
+      "id": "node/564294798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/603568084",
+        "addr:city": "Münster",
+        "addr:housenumber": "31",
+        "addr:postcode": "48155",
+        "addr:street": "Am Hawerkamp",
+        "amenity": "bar",
+        "entry_fee": "4.00-10.00Euro",
+        "food": "no",
+        "happy_hour": "no",
+        "name": "Triptychon",
+        "opening_hours": "Depending on event",
+        "outdoor_seating": "no",
+        "phone": "+49 251 661888",
+        "toilets:wheelchair": "no",
+        "website": "http://triptychon.sputnikhalle.com/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6383533,
+          51.9440161
+        ]
+      },
+      "id": "node/603568084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/616689795",
+        "addr:city": "Münster",
+        "addr:housenumber": "43",
+        "addr:postcode": "48155",
+        "addr:street": "Dortmunder Straße",
+        "amenity": "bar",
+        "contact:phone": "+49 251 7484744",
+        "level": "0;-1",
+        "name": "Kittys Trinksalon",
+        "smoking": "yes",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6417229,
+          51.9529449
+        ]
+      },
+      "id": "node/616689795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/616689796",
+        "amenity": "bar",
+        "name": "Pier House",
+        "website": "https://www.pierhouse.de/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6414107,
+          51.9521796
+        ]
+      },
+      "id": "node/616689796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/616689799",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:postcode": "48155",
+        "addr:street": "Hansaring",
+        "amenity": "bar",
+        "contact:email": "frageundantwort@watusibar-ms.de",
+        "contact:phone": "+49 251 1365172",
+        "name": "Watusi Bar",
+        "smoking": "isolated",
+        "website": "https://www.watusibar-ms.de",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6413732,
+          51.9530546
+        ]
+      },
+      "id": "node/616689799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/616689803",
+        "addr:city": "Münster",
+        "addr:housenumber": "24",
+        "addr:postcode": "48155",
+        "addr:street": "Bremer Straße",
+        "amenity": "nightclub",
+        "name": "Grille",
+        "phone": "+49 251 7474902",
+        "smoking": "yes",
+        "website": "http://www.grille-nacht-cafe.de/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6370963,
+          51.9548236
+        ]
+      },
+      "id": "node/616689803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/616689804",
+        "addr:city": "Münster",
+        "addr:housenumber": "8",
+        "addr:postcode": "48155",
+        "addr:street": "Bremer Platz",
+        "amenity": "bar",
+        "email": "info@minimi-lounge.de",
+        "name": "minimi Lounge",
+        "phone": "0176/24690520",
+        "smoking": "separated",
+        "website": "http://www.minimi-lounge.de/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6371827,
+          51.9585845
+        ]
+      },
+      "id": "node/616689804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/620607400",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "25",
+        "addr:postcode": "48143",
+        "addr:street": "Alter Steinweg",
+        "amenity": "bar",
+        "name": "Gassi",
+        "opening_hours": "Th-Sa 19:00-03:00",
+        "phone": "+49 251 56524",
+        "smoking": "yes",
+        "website": "http://www.gassi-muenster.de/gassi/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6322332,
+          51.9616495
+        ]
+      },
+      "id": "node/620607400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/630651589",
+        "amenity": "nightclub",
+        "email": "TICKETS@GLEIS22.DE",
+        "name": "Gleis 22",
+        "opening_hours": "Mo-Fr 12:00-15:00",
+        "phone": "+49 251 525941",
+        "url": "http://www.gleis22.de/index_noflash.htm",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.631386,
+          51.9536794
+        ]
+      },
+      "id": "node/630651589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1056615238",
+        "amenity": "bar",
+        "name": "Butts Bierstube",
+        "opening_hours": "Mo-Su 16:00+",
+        "phone": "+49 251 518619",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6318392,
+          51.9540579
+        ]
+      },
+      "id": "node/1056615238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1056653236",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "48143",
+        "addr:street": "Bült",
+        "amenity": "bar",
+        "contact:phone": "+49 251 57455",
+        "contact:website": "http://atelier-bar.de/",
+        "food": "yes",
+        "name": "Atelier Bar",
+        "opening_hours": "Su-Th 21:00-05:00, Fr-Sa 21:00-06:00",
+        "outdoor_seating": "no",
+        "smoking": "yes",
+        "website": "http://atelier-bar.de/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6301798,
+          51.9639314
+        ]
+      },
+      "id": "node/1056653236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1080498289",
+        "addr:city": "Münster",
+        "addr:housenumber": "30",
+        "addr:postcode": "48143",
+        "addr:street": "Mauritzstraße",
+        "amenity": "bar",
+        "brewery": "Astra",
+        "email": "info@rockbar.ms",
+        "name": "Metro",
+        "opening_hours": "TH-SA 20:00-03:00",
+        "phone": "+49 251 4902994",
+        "smoking": "no",
+        "toilets:wheelchair": "no",
+        "website": "https://www.rockbar.ms/",
+        "wheelchair": "limited",
+        "wifi": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6331842,
+          51.9621241
+        ]
+      },
+      "id": "node/1080498289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1080498294",
+        "amenity": "bar",
+        "name": "Mocambo Bar",
+        "opening_hours": "Mo-Su 18:00-05:00",
+        "smoking": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6306202,
+          51.964771
+        ]
+      },
+      "id": "node/1080498294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1096717560",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "30a",
+        "addr:postcode": "48143",
+        "addr:street": "Bergstraße",
+        "amenity": "bar",
+        "entry_fee": "no",
+        "food": "no",
+        "happy_hour": "no",
+        "name": "Alter Ego",
+        "opening_hours": "Su-Tu,Th 18:00-01:00, We,Fr-Sa 18:00-03:00",
+        "outdoor_seating": "no",
+        "phone": "+49 251 53559383",
+        "smoking": "outside",
+        "toilets:wheelchair": "no",
+        "website": "https://www.alterego.ms/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6238401,
+          51.9657501
+        ]
+      },
+      "id": "node/1096717560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1242048457",
+        "amenity": "bar",
+        "name": "Walk of Fame",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6358995,
+          51.9597709
+        ]
+      },
+      "id": "node/1242048457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1278188406",
+        "addr:city": "Münster",
+        "addr:housenumber": "16",
+        "addr:postcode": "48155",
+        "addr:street": "Hafenweg",
+        "amenity": "bar",
+        "contact:phone": "0251-1355438",
+        "contact:website": "http://www.hafentor-münster.de",
+        "food": "yes",
+        "name": "Hafentor",
+        "opening_hours": "Mo-Th 15:00-24:00, Fr 15:00-01:00, Sa 12:00-01:00, Su 12:00-24:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6404928,
+          51.952178
+        ]
+      },
+      "id": "node/1278188406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1316154181",
+        "addr:housenumber": "19",
+        "addr:street": "Mauritzstraße",
+        "amenity": "bar",
+        "name": "Haifisch-Bar",
+        "opening_hours": "Tu 19:00-01:00, We 19:00-03:00, Th 19:00-01:00, Fr-Sa 19:00-03:00",
+        "website": "http://www.haifischbar-muenster.de/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6327298,
+          51.9625915
+        ]
+      },
+      "id": "node/1316154181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1336884102",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "15/16",
+        "addr:postcode": "48143",
+        "addr:street": "Hörsterstraße",
+        "amenity": "bar",
+        "name": "Brödekers Bar",
+        "opening_hours": "We-Th 19:00-01:00, Fr-Sa 19:00-03:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6312597,
+          51.9648778
+        ]
+      },
+      "id": "node/1336884102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1440344170",
+        "amenity": "bar",
+        "internet_access": "wlan",
+        "name": "FiFa-Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6270255,
+          51.9444455
+        ]
+      },
+      "id": "node/1440344170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1488978136",
+        "amenity": "bar",
+        "bar": "wine_bar",
+        "name": "Joducus",
+        "opening_hours": "Mo-Sa 19:00-24:00",
+        "smoking": "no",
+        "website": "http://www.weinstube-joducus-muenster.de"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6195011,
+          51.9694473
+        ]
+      },
+      "id": "node/1488978136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1489056833",
+        "addr:housenumber": "5",
+        "addr:street": "An der Germania Brauerei",
+        "amenity": "bar",
+        "bar": "cocktail",
+        "name": "Tide",
+        "opening_hours": "Su-Th 18:00-00:00; Fr-Sa 18:00-02:00",
+        "phone": "+492514188730",
+        "smoking": "no",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.factoryhotel-muenster.de",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.610534,
+          51.9772036
+        ]
+      },
+      "id": "node/1489056833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1493280064",
+        "amenity": "bar",
+        "name": "Hafenbar",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.643273,
+          51.9521777
+        ]
+      },
+      "id": "node/1493280064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1557163887",
+        "addr:housename": "Sputnikhalle",
+        "addr:housenumber": "31",
+        "addr:postcode": "48155",
+        "addr:street": "Am Hawerkamp",
+        "amenity": "bar",
+        "name": "Sputnik-Halle",
+        "website": "https://www.sputnikhalle.de",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6382269,
+          51.9438231
+        ]
+      },
+      "id": "node/1557163887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1557165059",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housename": "LWL",
+        "addr:housenumber": "22",
+        "addr:postcode": "48145",
+        "addr:street": "Warendorfer Straße",
+        "amenity": "bar",
+        "name": "Peters Weinbar",
+        "opening_hours": "Mo-Sa 18:00-22:00+",
+        "website": "http://www.peters-weinbar.de/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.64016,
+          51.9615107
+        ]
+      },
+      "id": "node/1557165059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1557167168",
+        "addr:housenumber": "31",
+        "addr:postcode": "48155",
+        "addr:street": "Am Hawerkamp",
+        "amenity": "bar",
+        "name": "KCM Schwulen- und Lesbenzentrum",
+        "toilets:wheelchair": "no",
+        "website": "www.kcm-muenster.de",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6386827,
+          51.9446182
+        ]
+      },
+      "id": "node/1557167168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1583217650",
+        "amenity": "bar",
+        "name": "Bar Madame"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6339696,
+          51.9579134
+        ]
+      },
+      "id": "node/1583217650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1583548397",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "18",
+        "addr:postcode": "48143",
+        "addr:street": "Hörsterstraße",
+        "amenity": "bar",
+        "designation": "Weinlokal",
+        "name": "Schoppenstecher",
+        "opening_hours": "Tu-Su 18:00+",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.631551,
+          51.9649192
+        ]
+      },
+      "id": "node/1583548397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1589492179",
+        "addr:housenumber": "30",
+        "addr:street": "Hammer Straße",
+        "amenity": "bar",
+        "name": "Zwanzig20",
+        "opening_hours": "Mo-Su,PH 18:00-23:00",
+        "website": "https://www.zwanzig20.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6253233,
+          51.9526057
+        ]
+      },
+      "id": "node/1589492179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1646666217",
+        "amenity": "bar",
+        "name": "Grand Café",
+        "opening_hours": "Mo-Sa 12:00-15:30, 17:00-01:00",
+        "smoking": "no",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.630904,
+          51.9646116
+        ]
+      },
+      "id": "node/1646666217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2039765851",
+        "amenity": "bar",
+        "name": "Dejavu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6419084,
+          51.953048
+        ]
+      },
+      "id": "node/2039765851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2389611874",
+        "amenity": "bar",
+        "name": "viva CAFE",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6003588,
+          51.9655402
+        ]
+      },
+      "id": "node/2389611874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2498174894",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:postcode": "48155",
+        "addr:street": "Nieberdingstraße",
+        "amenity": "bar",
+        "contact:phone": "+49 251 661683",
+        "description": "Wohnzimmerlounge - Bar in privaten Wohnzimmern mit Kulturprogramm",
+        "name": "Wohnzimmer e.V.",
+        "website": "www.wohnzimmer-ev.de",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6457374,
+          51.943358
+        ]
+      },
+      "id": "node/2498174894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2503620138",
+        "amenity": "bar",
+        "name": "Laterne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6384292,
+          51.9574794
+        ]
+      },
+      "id": "node/2503620138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2952307733",
+        "addr:city": "Münster",
+        "addr:housenumber": "64",
+        "addr:postcode": "48153",
+        "addr:street": "Hafenstraße",
+        "amenity": "nightclub",
+        "entry_fee": "yes",
+        "food": "no",
+        "happy_hour": "no",
+        "name": "Clubschiene",
+        "opening_hours": "Mo-Fr 11:00-18:00",
+        "outdoor_seating": "no",
+        "phone": "+49 251 1333999",
+        "website": "http://www.clubschiene.de/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6341242,
+          51.949719
+        ]
+      },
+      "id": "node/2952307733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2953735328",
+        "addr:city": "Münster",
+        "addr:housenumber": "24a",
+        "addr:postcode": "48155",
+        "addr:street": "Hafenweg",
+        "amenity": "bar",
+        "contact:phone": "0251-61899963",
+        "contact:website": "www.pasta-e-basta.ms",
+        "food": "yes",
+        "name": "Pasta e Basta",
+        "opening_hours": "Mo-Su 12:00-23:30",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.642249,
+          51.952104
+        ]
+      },
+      "id": "node/2953735328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2995106944",
+        "amenity": "nightclub",
+        "name": "Der Stur",
+        "website": "http://www.derstur.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6114446,
+          51.9770128
+        ]
+      },
+      "id": "node/2995106944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3262264516",
+        "addr:city": "Münster",
+        "addr:housenumber": "31",
+        "addr:postcode": "48143",
+        "addr:street": "Alter Steinweg",
+        "amenity": "bar",
+        "brewery": "Früh",
+        "name": "Früh bis spät",
+        "opening_hours": "Mo-Fr 17:00-01:00, Sa-Su 15:00-02:00",
+        "operator": "Axel Bröker",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6330565,
+          51.9617972
+        ]
+      },
+      "id": "node/3262264516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3262631703",
+        "amenity": "nightclub",
+        "name": "Gazelle",
+        "old_name": "Gogo",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6358319,
+          51.959591
+        ]
+      },
+      "id": "node/3262631703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3272713432",
+        "amenity": "bar",
+        "name": "Babel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6369293,
+          51.9530511
+        ]
+      },
+      "id": "node/3272713432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4261656277",
+        "amenity": "bar",
+        "description": "Schiff, ungefährer Liegeplatz",
+        "name": "MS Günther",
+        "website": "https://www.ms-guenther.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6445935,
+          51.9515909
+        ]
+      },
+      "id": "node/4261656277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4333081716",
+        "amenity": "bar",
+        "name": "Heile Welt",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6329282,
+          51.9651416
+        ]
+      },
+      "id": "node/4333081716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4579814594",
+        "addr:housenumber": "7",
+        "addr:street": "Herwarthstraße",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/milchbarmuenster/",
+        "name": "leo:16",
+        "opening_hours": "We 19:00-01:00; Fr-Sa 11:00-03:00",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6324864,
+          51.9560274
+        ]
+      },
+      "id": "node/4579814594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4675531585",
+        "amenity": "nightclub",
+        "facebook": "https://www.facebook.com/ElephantLounge",
+        "name": "Elephant Lounge",
+        "website": "http://www.elephant-club.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6286687,
+          51.9637336
+        ]
+      },
+      "id": "node/4675531585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4721919391",
+        "amenity": "bar",
+        "name": "Shooter Stars",
+        "opening_hours": "Mo-Th 19:00-02:00, Fr-Sa 19:00-03:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.63358,
+          51.961854
+        ]
+      },
+      "id": "node/4721919391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4876679164",
+        "addr:city": "Münster",
+        "addr:housenumber": "32",
+        "addr:postcode": "48143",
+        "addr:street": "Alter Steinweg",
+        "amenity": "bar",
+        "name": "Sausalitos",
+        "opening_hours": "Su-Th 16:00-24:00; Fr-Sa 16:00-2:00",
+        "operator": "Sausalitos Holding GmbH, München",
+        "website": "https://www.sausalitos.de/mein-sausalitos/muenster/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6331535,
+          51.961869
+        ]
+      },
+      "id": "node/4876679164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5029734106",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "48155",
+        "addr:street": "Am Hawerkamp",
+        "amenity": "nightclub",
+        "contact:email": "frageundantwort@amp-ms.de",
+        "contact:phone": "+49 251 39630736",
+        "name": "Amp",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6399639,
+          51.9482998
+        ]
+      },
+      "id": "node/5029734106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5062253804",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "6",
+        "addr:postcode": "48143",
+        "addr:street": "Bahnhofstraße",
+        "amenity": "bar",
+        "entry_fee": "no",
+        "food": "yes",
+        "happy_hour": "no",
+        "name": "Alexianer Waschküche",
+        "opening_hours": "Mo-Sa 09:00-19:00; Su 09:30-14:00",
+        "outdoor_seating": "yes",
+        "phone": "+492519731027500",
+        "toilets:wheelchair": "yes",
+        "website": "https://waschkueche.alexianer.de/",
+        "wheelchair": "yes",
+        "wheelchair:description": "WC mit Rollstuhl eingeschränkt zugänglich"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6345343,
+          51.9588978
+        ]
+      },
+      "id": "node/5062253804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5773419891",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "29a",
+        "addr:postcode": "48155",
+        "addr:street": "Am Hawerkamp",
+        "amenity": "bar",
+        "fixme": "placement, add building",
+        "name": "Heaven Beachhouse",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6393926,
+          51.9451842
+        ]
+      },
+      "id": "node/5773419891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5773419892",
+        "amenity": "bar",
+        "fixme": "placement, add building",
+        "name": "Coconut Beach",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6398513,
+          51.9448849
+        ]
+      },
+      "id": "node/5773419892"
+    }
+  ]
+}
