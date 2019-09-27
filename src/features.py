@@ -37,30 +37,35 @@ nightlife_prios = [
     }
 ]
 
-features = {
-    "near_university": {
+features = [
+    {
+        ID: "near_university",
         LABEL: "Nähe zur Uni",
         PRIORITIES: std_prios,
         DESCRIPTION: 'Lorem Ipsum'
     },
-    "shops": {
+    {
+        ID: "shops",
         LABEL: "Einkaufmöglichkeiten",
         PRIORITIES: std_prios,
         DESCRIPTION: 'Lorem Ipsum'
     },
-    "nightlife": {
+    {
+        ID: "nightlife",
         LABEL: "Nightlife",
         PRIORITIES: nightlife_prios,
         DESCRIPTION: 'Lorem Ipsum'
     },
-    "public_transport": {
+    {
+        ID: "public_transport",
         LABEL: "ÖPNV",
         PRIORITIES: std_prios,
         DESCRIPTION: 'Lorem Ipsum'
     },
-    "avg_cost": {
+    {
+        ID: "avg_cost",
         LABEL: "Mietspiegel",
         PRIORITIES: std_prios,
         DESCRIPTION: 'Lorem Ipsum'
     }
-}
+]
