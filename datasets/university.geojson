@@ -1,0 +1,2180 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2019-09-27T14:37:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/305280091",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housename": "Institut für Mathematik und Informatik",
+        "addr:housenumber": "62",
+        "addr:postcode": "48149",
+        "addr:street": "Einsteinstraße",
+        "amenity": "university",
+        "contact:website": "http://wwwmath.uni-muenster.de/statistik/",
+        "name": "Institut für Mathematische Logik",
+        "operator": "Westfälische Wilhelmsuniversität Münster",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6032744,
+          51.965925
+        ]
+      },
+      "id": "node/305280091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/320583898",
+        "amenity": "university",
+        "name": "Fachbereich Wirtschaftswissenschaften",
+        "ref": "FB 4",
+        "website": "http://www1.wiwi.uni-muenster.de/fakultaet/index.php",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6198025,
+          51.9619772
+        ]
+      },
+      "id": "node/320583898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/320703596",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "8-10",
+        "addr:postcode": "48143",
+        "addr:street": "Johannisstraße",
+        "amenity": "university",
+        "name": "FB 2 Kath.-Theol. Fakultät",
+        "website": "https://www.uni-muenster.de/FB2/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6226397,
+          51.9626596
+        ]
+      },
+      "id": "node/320703596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/320703598",
+        "amenity": "university",
+        "name": "FB 3 Rechtswissenschaften",
+        "website": "http://www.jura.uni-muenster.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6206041,
+          51.961741
+        ]
+      },
+      "id": "node/320703598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/320703600",
+        "amenity": "university",
+        "contact:fax": "+49 (251) 83-55004",
+        "contact:phone": "+49 (251) 83-55010",
+        "name": "Fachbereich 5: Medizin",
+        "ref": "FB 5",
+        "website": "https://www.uni-muenster.de/wwu/fak_fb/fb5.html",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6010794,
+          51.9606985
+        ]
+      },
+      "id": "node/320703600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/320703609",
+        "amenity": "university",
+        "contact:email": "philsem@uni-muenster.de",
+        "contact:phone": "+492518324460",
+        "name": "FB 8 Geschichte/Philosophie",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6232569,
+          51.9618091
+        ]
+      },
+      "id": "node/320703609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/320703612",
+        "amenity": "university",
+        "fax": "+49 251 83-29939",
+        "name": "Philologie",
+        "phone": "+49 251 83-24578",
+        "ref": "FB 9",
+        "website": "https://www.uni-muenster.de/Philologie/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6232315,
+          51.9650051
+        ]
+      },
+      "id": "node/320703612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/320703614",
+        "amenity": "university",
+        "name": "FB 11 Physik",
+        "website": "https://www.uni-muenster.de/physik.pi/institut/",
+        "wheelchair": "limited",
+        "wheelchair:description": "kein Winterdienst"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.598431,
+          51.9672295
+        ]
+      },
+      "id": "node/320703614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/320703619",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:postcode": "48143",
+        "addr:street": "Schlossplatz",
+        "amenity": "university",
+        "building": "yes",
+        "contact:email": "dekanat.bio@uni-muenster.de",
+        "contact:fax": "+49 251 83-21706",
+        "contact:phone": "+49 251 83-23012",
+        "contact:website": "http://www.uni-muenster.de/Biologie/",
+        "internet_access": "wlan",
+        "name": "Biologie",
+        "operator": "Westfälische Wilhelms-Universität Münster (WWU)",
+        "ref": "FB 13",
+        "smoking": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.615201,
+          51.965342
+        ]
+      },
+      "id": "node/320703619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/552981058",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "24",
+        "addr:postcode": "48149",
+        "addr:street": "Corrensstraße",
+        "amenity": "university",
+        "name": "Institut für Mineralogie",
+        "operator": "Westfälische Wilhelms-Universität Münster",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.596815,
+          51.968266
+        ]
+      },
+      "id": "node/552981058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/552981059",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "24",
+        "addr:postcode": "48149",
+        "addr:street": "Corrensstraße",
+        "amenity": "university",
+        "name": "Institut für Geologie und Paläontologie",
+        "operator": "Westfälische Wilhelms-Universität Münster",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5968279,
+          51.9680535
+        ]
+      },
+      "id": "node/552981059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/552981061",
+        "alt_name": "WWU",
+        "amenity": "university",
+        "contact:email": "ifp@uni-muenster.de",
+        "contact:fax": "+49 251 83-36301",
+        "contact:phone": "+49 251 83-33496",
+        "name": "Institut für Planetologie",
+        "operator": "Westfälische Wilhelms-Universität",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5979709,
+          51.9669865
+        ]
+      },
+      "id": "node/552981061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/552981076",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "24",
+        "addr:postcode": "48149",
+        "addr:street": "Corrensstraße",
+        "amenity": "university",
+        "name": "Institut für Geophysik",
+        "operator": "Westfälische Wilhelms-Universität Münster",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.596832,
+          51.9684329
+        ]
+      },
+      "id": "node/552981076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/582624545",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "28",
+        "addr:postcode": "48149",
+        "addr:street": "Corrensstraße",
+        "amenity": "university",
+        "building": "yes",
+        "name": "FB 12 AC/PC II",
+        "operator": "Westfälische Wilhelms-Universität Münster",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5977034,
+          51.9679736
+        ]
+      },
+      "id": "node/582624545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/582624561",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "30",
+        "addr:postcode": "48149",
+        "addr:street": "Corrensstraße",
+        "amenity": "university",
+        "name": "FB 12 AC/PC I",
+        "operator": "Westfälische Wilhelms-Universität Münster",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.uni-muenster.de/Chemie.pc/knoll/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5983882,
+          51.9679817
+        ]
+      },
+      "id": "node/582624561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/617031362",
+        "amenity": "university",
+        "contact:email": "gesdirkp@uni-muenster.de",
+        "contact:fax": "+49 251 83-34962",
+        "contact:phone": "+49 251 83-34950",
+        "name": "Institut für Kernphysik",
+        "operator": "Westfälische Wilhelms-Universität Münster",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5988636,
+          51.9665516
+        ]
+      },
+      "id": "node/617031362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/834843815",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "80",
+        "addr:postcode": "48161",
+        "addr:street": "Gescherweg",
+        "amenity": "university",
+        "name": "Sozialberatung des Studentenwerks Münster",
+        "office": "quango",
+        "operator": "Studentenwerk Münster AöR",
+        "website": "http://www.studentenwerk-muenster.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5759264,
+          51.9758997
+        ]
+      },
+      "id": "node/834843815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/990280736",
+        "addr:city": "Münster",
+        "addr:housename": "Institut für Theoretische Physik",
+        "addr:housenumber": "9",
+        "addr:postcode": "48149",
+        "addr:street": "Wilhelm-Klemm-Straße",
+        "alt_name": "WWU",
+        "amenity": "university",
+        "designation": "Westfälische Wilhelms-Universität",
+        "name": "Institut für Theoretische Physik",
+        "operator": "Westfälische Wilhelms-Universität Münster",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5988482,
+          51.9661313
+        ]
+      },
+      "id": "node/990280736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1025561902",
+        "Dekan": "Prof. Dr. Martin Stein",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housename": "Institut für Mathematik",
+        "addr:housenumber": "62",
+        "addr:postcode": "48149",
+        "addr:street": "Einsteinstraße",
+        "amenity": "university",
+        "description": "Hörsäle:6, Seminarräume:4",
+        "library": "yes",
+        "name": "FB 10 Mathematik",
+        "phone": "0251/83-33713",
+        "website": "https://wwwmath.uni-muenster.de/42/index.php",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.602632,
+          51.9658042
+        ]
+      },
+      "id": "node/1025561902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1025561935",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housename": "Institut für Mathematik und Informatik",
+        "addr:housenumber": "62",
+        "addr:postcode": "48149",
+        "addr:street": "Einsteinstraße",
+        "amenity": "university",
+        "contact:website": "http://wwwmath.uni-muenster.de/42/index.php",
+        "name": "Institut für Informatik",
+        "operator": "Westfälische Wilhelmsuniversität Münster",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6032947,
+          51.966231
+        ]
+      },
+      "id": "node/1025561935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1115273975",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "21",
+        "addr:postcode": "48149",
+        "addr:street": "Leonardo-Campus",
+        "amenity": "university",
+        "name": "Universitätsarchiv",
+        "source": "http://www.uni-muenster.de/Archiv/",
+        "wikidata": "Q15430691"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6000056,
+          51.9740914
+        ]
+      },
+      "id": "node/1115273975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1374775006",
+        "amenity": "university",
+        "name": "Zentrum für Lehrerbildung WWU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6245879,
+          51.9475301
+        ]
+      },
+      "id": "node/1374775006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1545896592",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "30",
+        "addr:postcode": "48149",
+        "addr:street": "Robert-Koch-Straße",
+        "amenity": "university",
+        "name": "AStA der Fachhochschule",
+        "opening_hours": "10:00-16:00",
+        "phone": "0251 8364991",
+        "website": "https://astafh.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6062173,
+          51.9601016
+        ]
+      },
+      "id": "node/1545896592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1869216031",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housename": "Theaterlabor",
+        "addr:housenumber": "118",
+        "addr:postcode": "48151",
+        "addr:street": "Scharnhorststraße",
+        "amenity": "university",
+        "name": "Theaterlabor",
+        "website": "https://www.uni-muenster.de/Theaterlabor/index.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.606654,
+          51.9499517
+        ]
+      },
+      "id": "node/1869216031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1947505292",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "34",
+        "addr:postcode": "48143",
+        "addr:street": "Schlossplatz",
+        "amenity": "university",
+        "name": "Germanistisches Institut",
+        "operator": "Westfälische Wilhelms-Universität Münster",
+        "phone": "+492518324639",
+        "smoking": "no",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.uni-muenster.de/Germanistik/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6188287,
+          51.9644365
+        ]
+      },
+      "id": "node/1947505292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1947505920",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housename": "Zentrum für Didaktik der Biologie",
+        "addr:housenumber": "34",
+        "addr:postcode": "48143",
+        "addr:street": "Schlossplatz",
+        "amenity": "university",
+        "name": "Zentrum für Didaktik der Biologie",
+        "operator": "Westfälische Wilhelms-Universität Münster",
+        "smoking": "no",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.uni-muenster.de/Biologie.Didaktik/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6188335,
+          51.9642807
+        ]
+      },
+      "id": "node/1947505920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122554843",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housename": "Institut für Kanonisches Recht",
+        "addr:housenumber": "8-10",
+        "addr:postcode": "48143",
+        "addr:street": "Johannisstraße",
+        "amenity": "university",
+        "contact:website": "http://www.uni-muenster.de/FB2/ikr/",
+        "name": "Institut für Kanonisches Recht",
+        "operator": "WWU Münster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6224918,
+          51.9626117
+        ]
+      },
+      "id": "node/2122554843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122568297",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "27",
+        "addr:postcode": "48149",
+        "addr:street": "Hüfferstraße",
+        "amenity": "university",
+        "name": "Arbeitsbereich Linguistik",
+        "phone": "+49 251 83-39225"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6081585,
+          51.9604237
+        ]
+      },
+      "id": "node/2122568297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122571314",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housename": "Mikrobiologie",
+        "addr:housenumber": "3",
+        "addr:postcode": "48149",
+        "addr:street": "Corrensstraße",
+        "alt_name": "WWU",
+        "amenity": "university",
+        "contact:email": "mibi@uni-muenster.de",
+        "contact:fax": "+49 251 83-38388",
+        "contact:phone": "+49 251 83-39821",
+        "description": "PC-Pools und 7 Seminarräume",
+        "name": "Mikrobiologie",
+        "operator": "Westfälische Wilhelms-Universität Münster",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "limited",
+        "wheelchair:description": "Schlüssel  und transponder werden  benötigt sehr alter  enger Aufzug"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5975691,
+          51.9658814
+        ]
+      },
+      "id": "node/2122571314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122580007",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "25",
+        "addr:postcode": "48143",
+        "addr:street": "Georgskommende",
+        "amenity": "university",
+        "building": "yes",
+        "description": "Forschungs- und Arbeitsstelle",
+        "name": "Asia Minor",
+        "phone": "+49 251 83-24901",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6197043,
+          51.9599425
+        ]
+      },
+      "id": "node/2122580007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122581589",
+        "addr:city": "Münster",
+        "addr:housenumber": "2-4",
+        "addr:postcode": "48149",
+        "addr:street": "Vesaliusweg",
+        "amenity": "university",
+        "contact:phone": "+49 251 / 83 - 5 52 00",
+        "name": "Institut für Anatomie",
+        "operator": "WWU Münster",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6060402,
+          51.957587
+        ]
+      },
+      "id": "node/2122581589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122582754",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housename": "Seminar für Fundamentaltheologie",
+        "addr:housenumber": "8-10",
+        "addr:postcode": "48143",
+        "addr:street": "Johannisstraße",
+        "amenity": "university",
+        "contact:website": "http://www.uni-muenster.de/FB2/fundamentaltheologie/",
+        "name": "Seminar für Fundamentaltheologie",
+        "operator": "WWU Münster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6226152,
+          51.9627344
+        ]
+      },
+      "id": "node/2122582754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122586418",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "100",
+        "addr:postcode": "48151",
+        "addr:street": "Scharnhorststraße",
+        "amenity": "university",
+        "contact:phone": "+49 251 83-24303",
+        "name": "Institut für Organisationsökonomik",
+        "operator": "WWU Münster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6080194,
+          51.9506397
+        ]
+      },
+      "id": "node/2122586418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122592226",
+        "amenity": "university",
+        "name": "Institut für Neutestamentliche Textforschung",
+        "website": "http://egora.uni-muenster.de/intf/",
+        "wikidata": "Q477451"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6235026,
+          51.9612592
+        ]
+      },
+      "id": "node/2122592226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122605367",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "3",
+        "addr:postcode": "48149",
+        "addr:street": "Schlossplatz",
+        "amenity": "university",
+        "building": "office",
+        "contact:email": "careerservice@uni-muenster.de",
+        "internet_access": "wlan",
+        "name": "Career Service",
+        "operator": "Westfälische Wilhelms-Universität Münster",
+        "smoking": "no",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.uni-muenster.de/CareerService/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.614349,
+          51.964733
+        ]
+      },
+      "id": "node/2122605367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122605368",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "7",
+        "addr:postcode": "48149",
+        "addr:street": "Schlossplatz",
+        "amenity": "university",
+        "internet_access": "wlan",
+        "name": "Hörsaal Biologie",
+        "operator": "Westfälische Wilhelms-Universität Münster",
+        "ref": "PC7",
+        "short_name": "SP7",
+        "smoking": "no",
+        "wheelchair": "limited",
+        "wheelchair:description": "Tür bei der Rampe muss von innen geöffnet werden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6147741,
+          51.9647206
+        ]
+      },
+      "id": "node/2122605368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122661072",
+        "amenity": "university",
+        "level": "3",
+        "name": "Institut für Geographie",
+        "short_name": "IfG",
+        "start_date": "2013-03",
+        "website": "https://www.uni-muenster.de/Geographie/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5957584,
+          51.9694005
+        ]
+      },
+      "id": "node/2122661072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122661693",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "56",
+        "addr:postcode": "48149",
+        "addr:street": "Schmeddingstraße",
+        "amenity": "university",
+        "name": "Institut für Biometrie und klinische Forschung",
+        "operator": "Westfälische Wilhelms Universität Münster",
+        "short_name": "IBKF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5909353,
+          51.9590738
+        ]
+      },
+      "id": "node/2122661693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122664513",
+        "amenity": "university",
+        "contact:website": "http://www.uni-muenster.de/ArabistikIslam/",
+        "name": "Institut für Arabistik und Islamwissenschaft",
+        "operator": "Westfälische Wilhelmsuniversität Münster",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6232059,
+          51.9650594
+        ]
+      },
+      "id": "node/2122664513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122664728",
+        "addr:city": "Münster",
+        "addr:door": "014",
+        "addr:housenumber": "19",
+        "addr:postcode": "48149",
+        "addr:street": "Röntgenstraße",
+        "amenity": "university",
+        "contact:email": "bbs.uni@uni-muenster.de",
+        "contact:fax": "+49 251 83 25789",
+        "contact:phone": "+49 251 83 25780",
+        "contact:website": "http://www.uni-muenster.de/Rektorat/Sicherheit/bio/bbst/bbst_inx.htm",
+        "name": "Tierschutzbeauftragter der Medizinischen Fakultät",
+        "operator": "Westfälische Wilhelms-Universität"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5927311,
+          51.9674303
+        ]
+      },
+      "id": "node/2122664728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122666329",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "29",
+        "addr:postcode": "48149",
+        "addr:street": "Robert-Koch-Straße",
+        "alt_name": "Kulturbüro der Universität Münster",
+        "amenity": "university",
+        "name": "Universitätsausschuss für Kunst und Kultur",
+        "operator": "Westfälische Wilhelmsuniversität Münster",
+        "source": "http://www.uni-muenster.de/leben/kulturbuero/index.html",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6070744,
+          51.9595142
+        ]
+      },
+      "id": "node/2122666329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122669361",
+        "amenity": "university",
+        "level": "4",
+        "name": "Institut für Landschaftsökologie",
+        "short_name": "ILÖK",
+        "start_date": "2013-03",
+        "website": "https://www.uni-muenster.de/Landschaftsoekologie/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5958017,
+          51.9694963
+        ]
+      },
+      "id": "node/2122669361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122674824",
+        "alt_name": "ifgi",
+        "amenity": "university",
+        "level": "1",
+        "name": "Institut für Geoinformatik",
+        "operator": "Westfälische Wilhelms-Universität Münster",
+        "short_name": "ifgi",
+        "start_date": "2013-03",
+        "website": "http://ifgi.uni-muenster.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.595834,
+          51.9695914
+        ]
+      },
+      "id": "node/2122674824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122674826",
+        "amenity": "university",
+        "contact:website": "http://www.uni-muenster.de/KlassischePhilologie/index.html",
+        "name": "Institut für klassische Philologie",
+        "operator": "WWU Münster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6227547,
+          51.9618997
+        ]
+      },
+      "id": "node/2122674826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122676493",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housename": "Alte Universitätsbibliothek",
+        "addr:housenumber": "24/25",
+        "addr:postcode": "48143",
+        "addr:street": "Bispinghof",
+        "amenity": "university",
+        "internet_access": "wlan",
+        "name": "Institut für Kriminalwissenschaften",
+        "opening_hours": "Mo,Tu,Fr 09:00-13:00; We 09:00-12:00,14:00-16:00",
+        "phone": "+49 251 83-22751",
+        "smoking": "no",
+        "website": "http://www.jura.uni-muenster.de/go/organisation/institute/strafrecht.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6209237,
+          51.961
+        ]
+      },
+      "id": "node/2122676493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122678020",
+        "amenity": "university",
+        "name": "Fachschaft für Theologie",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.619346,
+          51.9612168
+        ]
+      },
+      "id": "node/2122678020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122684317",
+        "amenity": "university",
+        "email": "sino@uni-muenster.de",
+        "fax": "+49 251 83-29827",
+        "name": "Institut für Sinologie und Ostasienkunde",
+        "operator": "wilhelms universität münster",
+        "phone": "+49 251 83-24574",
+        "website": "https://www.uni-muenster.de/Sinologie/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6232308,
+          51.9649491
+        ]
+      },
+      "id": "node/2122684317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122785517",
+        "addr:city": "Münster",
+        "addr:housenumber": "2a",
+        "addr:postcode": "48149",
+        "addr:street": "Schlossplatz",
+        "amenity": "university",
+        "building": "yes",
+        "contact:phone": "+49 251 8339986",
+        "name": "Kartensammlung Geowissenschaften",
+        "opening_hours": "Mo 16:15-17:45;We 12:30-14:00",
+        "operator": "Westfälische Wilhelms-Universität Münster (WWU)",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6132945,
+          51.9643441
+        ]
+      },
+      "id": "node/2122785517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122820416",
+        "amenity": "university",
+        "email": "alhuxley@uni-muenster.de",
+        "name": "Aldous-Huxley- Forschungsstelle",
+        "phone": "+49 251 83-24828",
+        "website": "http://www.anglistik.uni-muenster.de/Huxley/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.622913,
+          51.9611543
+        ]
+      },
+      "id": "node/2122820416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122825954",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "69",
+        "addr:postcode": "48149",
+        "addr:street": "Hüfferstraße",
+        "amenity": "university",
+        "name": "Ombudsmann, Selbstkontrolle in der Wissenschaft"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6037574,
+          51.9598242
+        ]
+      },
+      "id": "node/2122825954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2123754710",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "27",
+        "addr:postcode": "48149",
+        "addr:street": "Hüfferstraße",
+        "amenity": "university",
+        "designation": "Fachbereich 02",
+        "name": "Arbeitsstelle Feministische Theologie und Genderforschung",
+        "phone": "+49 251 83-30047",
+        "smoking": "no",
+        "source": "http://www.uni-muenster.de/FB2/tff/",
+        "website": "http://www.uni-muenster.de/FB2/tff/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6081541,
+          51.9606602
+        ]
+      },
+      "id": "node/2123754710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2124004125",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "3",
+        "addr:postcode": "48149",
+        "addr:street": "Schlossplatz",
+        "amenity": "university",
+        "building": "yes",
+        "cuisine": "yes",
+        "name": "International Office",
+        "opening_hours": "Mo-Fr 08:30-16:00",
+        "phone": "49 (0) 251 83-2 22 15",
+        "source": "http://www.uni-muenster.de/InternationalOffice/",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6143575,
+          51.9646248
+        ]
+      },
+      "id": "node/2124004125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2125048466",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "46",
+        "addr:postcode": "48143",
+        "addr:street": "Königsstraße",
+        "amenity": "university",
+        "name": "Institut für vergleichende Städtegeschichte",
+        "operator": "Westfälische Wilhelms-Universität (WWU)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6257323,
+          51.9585454
+        ]
+      },
+      "id": "node/2125048466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2126041465",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housename": "Institut für Mathematik und Informatik",
+        "addr:housenumber": "62",
+        "addr:postcode": "48149",
+        "addr:street": "Einsteinstraße",
+        "amenity": "university",
+        "contact:website": "http://wwwmath.uni-muenster.de/logik/",
+        "name": "Institut für mathematische Logik und Grundlagenforschung",
+        "operator": "Westfälische Wilhelmsuniversität Münster",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6032928,
+          51.9660631
+        ]
+      },
+      "id": "node/2126041465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2131182978",
+        "amenity": "university",
+        "name": "Historisches Seminar",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.62291,
+          51.962282
+        ]
+      },
+      "id": "node/2131182978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2131207020",
+        "amenity": "university",
+        "contact:email": "sag@uni-muenster.de",
+        "name": "Seminar für Alte Geschichte",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6231997,
+          51.9622522
+        ]
+      },
+      "id": "node/2131207020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2134930338",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "6-8",
+        "addr:postcode": "48143",
+        "addr:street": "Wilmergasse",
+        "amenity": "university",
+        "building": "yes",
+        "name": "Institut für Finanzwissenschaften I /II",
+        "phone": "IfFW1: 0251/83-22871",
+        "website": "https://www.wiwi.uni-muenster.de/iff2/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6185793,
+          51.9622397
+        ]
+      },
+      "id": "node/2134930338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2135039565",
+        "amenity": "university",
+        "email": "leibnizf@uni-muenster.de",
+        "name": "Leibniz-Forschungsstelle",
+        "phone": "+49 251 83 329 20",
+        "source": "http://www.uni-muenster.de/Leibniz/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6048673,
+          51.9592287
+        ]
+      },
+      "id": "node/2135039565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2138882835",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "9",
+        "addr:postcode": "48143",
+        "addr:street": "Am Stadtgraben",
+        "amenity": "university",
+        "building": "yes",
+        "fax": "+49 251 8322970",
+        "name": "Institut für Siedlungs- und Wohnungswesen",
+        "phone": "+49 251 8322971",
+        "website": "https://www.wiwi.uni-muenster.de/insiwo/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6180525,
+          51.9612143
+        ]
+      },
+      "id": "node/2138882835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2138896242",
+        "amenity": "university",
+        "name": "Institut für Internationale Ökonomie",
+        "phone": "+49 251 83-28660",
+        "website": "https://www.wiwi.uni-muenster.de/iioe/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.619995,
+          51.9617492
+        ]
+      },
+      "id": "node/2138896242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2141359472",
+        "addr:city": "Münster",
+        "addr:housenumber": "100",
+        "addr:postcode": "48151",
+        "addr:street": "Scharnhorststraße",
+        "amenity": "university",
+        "contact:phone": "+49 251 8324400",
+        "name": "Seminar der Volkskunde",
+        "official_name": "Seminar der Volkskunde/Europäische Ethnologie",
+        "operator": "Westfälische Wilhelms-Universität",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.uni-muenster.de/Volkskunde/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6083002,
+          51.9507277
+        ]
+      },
+      "id": "node/2141359472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2143256323",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "33",
+        "addr:postcode": "48143",
+        "addr:street": "Georgskommende",
+        "amenity": "university",
+        "building": "yes",
+        "contact:email": "fspaed@uni-muenster.de",
+        "contact:phone": "0251 / 83 - 22289",
+        "contact:website": "http://egora.uni-muenster.de/ew/fspaedagogik/",
+        "name": "Fachschaft Pädagogik",
+        "operator": "WWU",
+        "source": "WWU Münster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6203137,
+          51.9601691
+        ]
+      },
+      "id": "node/2143256323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2144683540",
+        "amenity": "university",
+        "contact:fax": "+49 251 83-25337",
+        "contact:phone": "+49 251 83-24391",
+        "internet_access": "wlan",
+        "name": "Institut für Technik und ihre Didaktik",
+        "operator": "Westfälische Wilhelmsuniversität Münster",
+        "source": "http://www.uni-muenster.de/Physik.TD/",
+        "wheelchair": "limited",
+        "wheelchair:description": "Enge Fahrstühle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5987954,
+          51.9671127
+        ]
+      },
+      "id": "node/2144683540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2144749208",
+        "amenity": "university",
+        "contact:email": "asg@uni-muenster.de",
+        "contact:fax": "+49 251 8329851",
+        "contact:phone": "+49 251 8329856",
+        "contact:website": "http://www.uni-muenster.de/ArbeitsstelleGriechenland/",
+        "name": "Arbeitsstelle Griechenland",
+        "operator": "Westfälische Wilhelms-Universität Münster",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6232252,
+          51.9649109
+        ]
+      },
+      "id": "node/2144749208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145190688",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "10",
+        "addr:postcode": "48143",
+        "addr:street": "Bispinghof",
+        "amenity": "university",
+        "designation": "university",
+        "name": "Institut für ökumenische Theologie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6219048,
+          51.9613531
+        ]
+      },
+      "id": "node/2145190688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145222380",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "9",
+        "addr:postcode": "48143",
+        "addr:street": "Rosenstraße",
+        "amenity": "university",
+        "designation": "Institut",
+        "name": "Institut für Indogermanische Sprachwissenschaft"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6227995,
+          51.9648544
+        ]
+      },
+      "id": "node/2145222380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145588512",
+        "amenity": "university",
+        "name": "Forschungsstelle Gregor Von Nyssa",
+        "operator": "Westfälische Wilhelms-Universität Münster",
+        "website": "http://egora.uni-muenster.de/gregor-von-nyssa/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6235085,
+          51.9613029
+        ]
+      },
+      "id": "node/2145588512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2150563761",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "9",
+        "addr:postcode": "48143",
+        "addr:street": "Rosenstraße",
+        "amenity": "university",
+        "building": "yes",
+        "name": "Institut für Indogermanische Sprachwissenschaften",
+        "source": "WWU Münster",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6233141,
+          51.9647832
+        ]
+      },
+      "id": "node/2150563761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2269068153",
+        "addr:city": "Münster",
+        "addr:housenumber": "21",
+        "addr:postcode": "48149",
+        "addr:street": "Apffelstaedtstraße",
+        "amenity": "university",
+        "description": "Arbeitsbereich Mathematikdidaktik in den Sekundarstufen",
+        "name": "Institut der Didaktik der Mathematik und der Informatik",
+        "operator": "Westfälische Wilhelms-Universität Münster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5972906,
+          51.9695283
+        ]
+      },
+      "id": "node/2269068153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2388392204",
+        "amenity": "university",
+        "name": "Dekanat des Fachbereichs 9",
+        "operator": "Westfälische Wilhelms-Universität",
+        "source": "Uni Münster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6235566,
+          51.9649463
+        ]
+      },
+      "id": "node/2388392204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2425452024",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housename": "IG1",
+        "addr:housenumber": "10",
+        "addr:postcode": "48149",
+        "addr:street": "Wilhelm-Klemm-Straße",
+        "amenity": "university",
+        "name": "Physikalisches Institut",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5983743,
+          51.9669606
+        ]
+      },
+      "id": "node/2425452024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2461632961",
+        "addr:city": "Münster",
+        "addr:housenumber": "11",
+        "addr:postcode": "48149",
+        "addr:street": "Leonardo-Campus",
+        "amenity": "university",
+        "name": "Asta Sportreferat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6033676,
+          51.9734524
+        ]
+      },
+      "id": "node/2461632961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2506047395",
+        "addr:city": "Münster",
+        "addr:housenumber": "2",
+        "addr:postcode": "48149",
+        "addr:street": "Heisenbergstraße",
+        "amenity": "university",
+        "level": "0",
+        "name": "Fachschaft Geoinformatik",
+        "name:en": "Student Council Geoinformatics",
+        "operator": "Westfälische Wilhelms-Universität Münster",
+        "phone": "+492518333947",
+        "short_name": "GEOFS",
+        "website": "https://geofs.uni-muenster.de",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5959119,
+          51.9692826
+        ]
+      },
+      "id": "node/2506047395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2510166677",
+        "amenity": "university",
+        "level": "0",
+        "name": "Fachschaft Geographie/Landschaftsökologie",
+        "name:en": "Student Council Geography",
+        "operator": "Westfälische Wilhelms-Universität Münster",
+        "phone": "+492518333919",
+        "short_name": "GeoLök",
+        "website": "https://geofs.uni-muenster.de/geoloek/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5959463,
+          51.9693309
+        ]
+      },
+      "id": "node/2510166677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2647212812",
+        "addr:city": "Münster",
+        "addr:housename": "Leonardo-Campus 11",
+        "addr:housenumber": "11",
+        "addr:postcode": "48149",
+        "addr:street": "Leonardo-Campus",
+        "amenity": "university",
+        "name": "Fachschaft GHR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6031024,
+          51.9731302
+        ]
+      },
+      "id": "node/2647212812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2647338558",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housename": "Brasilien-Zentrum der Universität Münster",
+        "addr:housenumber": "3",
+        "addr:postcode": "48149",
+        "addr:street": "Leonardo-Campus",
+        "amenity": "university",
+        "name": "Brasilien-Zentrum der Universität Münster",
+        "source": "WWU Münster",
+        "website": "https://www.uni-muenster.de/Brasilienzentrum/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.601355,
+          51.9762545
+        ]
+      },
+      "id": "node/2647338558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2739119757",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "47",
+        "addr:postcode": "48155",
+        "addr:street": "Dortmunder Straße",
+        "amenity": "university",
+        "description": "Labor für Software Engineering",
+        "name": "Fachhochschule Münster",
+        "note": "Labor für Software Engineering",
+        "website": "https://www.fh-muenster.de/eti/labore_forschung/se",
+        "wikidata": "Q554425",
+        "wikipedia": "de:Fachhochschule Münster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6417805,
+          51.9526384
+        ]
+      },
+      "id": "node/2739119757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2879572855",
+        "addr:city": "Münster",
+        "addr:housename": "A11",
+        "addr:housenumber": "1",
+        "addr:postcode": "48149",
+        "addr:street": "Albert-Schweitzer-Campus",
+        "amenity": "university",
+        "name": "Institut für Medizinische Informatik",
+        "name:en": "Institute of Medical Informatics",
+        "short_name": "IMI",
+        "toilets:wheelchair": "yes",
+        "website": "http://imi.uni-muenster.de",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5987979,
+          51.9607498
+        ]
+      },
+      "id": "node/2879572855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2881520228",
+        "amenity": "university",
+        "name": "Institut für Didaktik der Geographie",
+        "operator": "Westfälische Wilhelms-Universität Münster",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5955626,
+          51.9695533
+        ]
+      },
+      "id": "node/2881520228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3014903293",
+        "addr:city": "Münster",
+        "addr:housenumber": "45",
+        "addr:postcode": "48149",
+        "addr:street": "Robert-Koch-Straße",
+        "amenity": "university",
+        "name": "Centrum für biomedizinische Optik und Photonik",
+        "name:en": "Center for biomedical optics and photonics",
+        "source": "WWU Muenster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.605951,
+          51.9581653
+        ]
+      },
+      "id": "node/3014903293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3014903294",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "43",
+        "addr:postcode": "48149",
+        "addr:street": "Robert-Koch-Straße",
+        "amenity": "university",
+        "name": "Institut für molekulare Tumorbiologie",
+        "operator": "Universitätsklinikum Münster",
+        "short_name": "Inst. f. molekulare Tumorbiologie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6061265,
+          51.9585502
+        ]
+      },
+      "id": "node/3014903294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3398783841",
+        "amenity": "university",
+        "name": "Zentrum für Islamische Theologie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6244376,
+          51.9474311
+        ]
+      },
+      "id": "node/3398783841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3439349470",
+        "addr:city": "Münster",
+        "addr:housenumber": "68b",
+        "addr:postcode": "48149",
+        "addr:street": "Horstmarer Landweg",
+        "amenity": "university",
+        "name": "Bewegungslabor OpenLab",
+        "operator": "Institut für Sportwissenschaft, WWU",
+        "website": "https://sso.uni-muenster.de/Sportwissenschaft/organisation/bewegungslabor/openlab/index.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5982694,
+          51.9725643
+        ]
+      },
+      "id": "node/3439349470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3439353117",
+        "amenity": "university",
+        "name": "HO 41, Seminarraum",
+        "operator": "Inst. f. Sportwissenschaft, WWU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5982159,
+          51.9723954
+        ]
+      },
+      "id": "node/3439353117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3439376601",
+        "addr:city": "Münster",
+        "addr:housenumber": "50",
+        "addr:postcode": "48149",
+        "addr:street": "Horstmarer Landweg",
+        "amenity": "university",
+        "name": "Bewegungswissenschaft",
+        "operator": "Inst. f. Sportwissenschaft, WWU",
+        "website": "https://www.uni-muenster.de/Bewegungswissenschaft/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5997124,
+          51.9709995
+        ]
+      },
+      "id": "node/3439376601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3441958644",
+        "amenity": "university",
+        "contact:website": "http://www.uni-muenster.de/Kowi/",
+        "name": "Institut für Kommunikationswissenschaft",
+        "operator": "Westfälische Wilhelms-Universität (WWU)",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6194686,
+          51.9603265
+        ]
+      },
+      "id": "node/3441958644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4239008789",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "14",
+        "addr:postcode": "48149",
+        "addr:street": "Niels-Stensen-Straße",
+        "alt_name": "Humangenetik/ Frauengesundheitsforschung",
+        "amenity": "university",
+        "contact:email": "GarberW@ukmuenster.de",
+        "contact:fax": "+492518353005",
+        "contact:phone": "+492518353004",
+        "name": "Institut für Bioinformatik",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6001009,
+          51.9565276
+        ]
+      },
+      "id": "node/4239008789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4330713207",
+        "addr:city": "Münster",
+        "addr:housenumber": "11",
+        "addr:postcode": "48149",
+        "addr:street": "Leonardo-Campus",
+        "amenity": "university",
+        "building": "university",
+        "name": "Institut für Wirtschaftsinformatik",
+        "name:en": "Department of Information Systems",
+        "operator": "Westfälische Wilhelms-Universität Münster",
+        "website": "https://www.wi.uni-muenster.de"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6032107,
+          51.9732611
+        ]
+      },
+      "id": "node/4330713207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4384854989",
+        "addr:city": "Münster",
+        "addr:housenumber": "60",
+        "addr:postcode": "48149",
+        "addr:street": "Einsteinstraße",
+        "amenity": "university",
+        "name": "Zentrum für Informationsverabeitung",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.uni-muenster.de/ZIV",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6038115,
+          51.9660873
+        ]
+      },
+      "id": "node/4384854989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4384858689",
+        "addr:city": "Münster",
+        "addr:housenumber": "7-13",
+        "addr:postcode": "48149",
+        "addr:street": "Röntgenstraße",
+        "amenity": "university",
+        "name": "Zentrum für Informationsverarbeitung",
+        "website": "https://www.uni-muenster.de/ZIV",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5939432,
+          51.9668551
+        ]
+      },
+      "id": "node/4384858689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4416508592",
+        "addr:city": "Münster",
+        "addr:housenumber": "6",
+        "addr:postcode": "48149",
+        "addr:street": "Leonardo-Campus",
+        "amenity": "university",
+        "name": "Münster School of Design",
+        "phone": "+49251 83-65301",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.fh-muenster.de/msd/index.php",
+        "wheelchair": "yes",
+        "wheelchair:description": "The barrier-free entrance is from the side entrance opposite Burger King Restaurant."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6011072,
+          51.9754701
+        ]
+      },
+      "id": "node/4416508592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4703341689",
+        "addr:city": "Münster",
+        "addr:housenumber": "1",
+        "addr:postcode": "48149",
+        "addr:street": "Hüfferstraße",
+        "amenity": "university",
+        "name": "Institut für Evolution und Biodiversität",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6140307,
+          51.9617508
+        ]
+      },
+      "id": "node/4703341689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4897130077",
+        "amenity": "university",
+        "name": "FOM Hochschule Hochschulzentrum Münster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6512326,
+          51.9339105
+        ]
+      },
+      "id": "node/4897130077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5351557516",
+        "addr:city": "Münster",
+        "addr:housenumber": "14-16",
+        "addr:postcode": "48143",
+        "addr:street": "Universitätsstraße",
+        "amenity": "university",
+        "internet_access": "wlan",
+        "internet_access:ssid": "eduroam",
+        "name": "Fachschaft Jura",
+        "operator": "Studierendenschaft der Westfälischen Wilhelms-Universität Münster",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6203767,
+          51.9617571
+        ]
+      },
+      "id": "node/5351557516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5547573543",
+        "amenity": "university",
+        "level": "0",
+        "name": "Fachschaft Mathe/Info",
+        "website": "https://www.uni-muenster.de/FSMI/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6037595,
+          51.9664237
+        ]
+      },
+      "id": "node/5547573543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5547573576",
+        "amenity": "university",
+        "contact:fax": "+49 251 83-35014",
+        "designation": "Prüfungsamt",
+        "name": "Prüfungsamt Mathe und Naturwissenschaften",
+        "note": "Zuständigkeit: Fachbereiche 1,2,6,7,8,9 und 14 und Mathematisch-Naturwissenschaftlicher Bereich"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6033536,
+          51.9666151
+        ]
+      },
+      "id": "node/5547573576"
+    }
+  ]
+}

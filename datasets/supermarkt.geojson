@@ -1,0 +1,1808 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2019-09-27T14:44:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/47930352",
+        "addr:city": "Münster",
+        "addr:housenumber": "54",
+        "addr:postcode": "48145",
+        "addr:street": "Warendorfer Straße",
+        "description": "hieß ehemals \"minimal\"",
+        "name": "REWE",
+        "opening_hours": "Mo-Fr 7:00-24:00; Sa 7:00-22:00",
+        "shop": "supermarket",
+        "website": "https://www.rewe.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.646185,
+          51.9630026
+        ]
+      },
+      "id": "node/47930352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/248507864",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "9",
+        "addr:postcode": "48161",
+        "addr:street": "Arnheimweg",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.de",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5791139,
+          51.9667441
+        ]
+      },
+      "id": "node/248507864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/263031135",
+        "addr:city": "Münster",
+        "addr:housenumber": "25-27",
+        "addr:postcode": "48143",
+        "addr:street": "Alter Steinweg",
+        "brand": "Rewe",
+        "brand:wikidata": "Q16968817",
+        "brand:wikipedia": "en:REWE",
+        "name": "Rewe",
+        "opening_hours": "Mo-Fr 07:00-24:00; Sa 07:00-22:00; Su off",
+        "payment:coins": "yes",
+        "payment:credit_cards": "yes",
+        "shop": "supermarket",
+        "website": "https://www.rewe.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6323598,
+          51.9615961
+        ]
+      },
+      "id": "node/263031135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/268850604",
+        "description": "Edekamarkt Tinz",
+        "name": "Edeka",
+        "shop": "supermarket",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6763564,
+          51.9612243
+        ]
+      },
+      "id": "node/268850604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/269842320",
+        "name": "Edeka",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6684925,
+          51.9512884
+        ]
+      },
+      "id": "node/269842320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/279372611",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "5-6",
+        "addr:postcode": "48147",
+        "addr:street": "Am Kreuztor",
+        "contact:phone": "0251 925603",
+        "name": "REWE",
+        "opening_hours": "Mo-Fr 7:00-24:00; Sa 7:00-22:00",
+        "ref": "0217",
+        "shop": "supermarket",
+        "toilets:wheelchair": "no",
+        "website": "https://www.rewe.de/",
+        "wheelchair": "yes",
+        "wheelchair:description": "Belag der Rampe teilweise defekt."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6231069,
+          51.968093
+        ]
+      },
+      "id": "node/279372611"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/283446825",
+        "name": "REWE",
+        "opening_hours": "Mo-Fr 07:00-24:00; Sa 07:00-22:00",
+        "shop": "supermarket",
+        "website": "https://www.rewe.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.612256,
+          51.9691453
+        ]
+      },
+      "id": "node/283446825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/288385755",
+        "name": "Aldi",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6342578,
+          51.9832209
+        ]
+      },
+      "id": "node/288385755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/303620651",
+        "addr:city": "Münster",
+        "addr:housenumber": "132",
+        "addr:postcode": "48147",
+        "addr:street": "Hoher Heckenweg",
+        "name": "Netto City",
+        "opening_hours": "Mo-Sa 07:00-21:00",
+        "operator": "Netto",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6449029,
+          51.9803564
+        ]
+      },
+      "id": "node/303620651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/336666681",
+        "name": "ALDI",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "operator": "Aldi",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6028733,
+          51.9946795
+        ]
+      },
+      "id": "node/336666681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/338967251",
+        "name": "ALDI",
+        "operator": "ALDI Nord",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6480544,
+          51.9943958
+        ]
+      },
+      "id": "node/338967251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/376534565",
+        "name": "Edeka Wievel",
+        "opening_hours": "Mo-Sa 08:00-21:00",
+        "phone": "+49 251 2896375",
+        "shop": "supermarket",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6413334,
+          51.9713115
+        ]
+      },
+      "id": "node/376534565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/379677495",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "89",
+        "addr:postcode": "48153",
+        "addr:street": "Hammer Straße",
+        "contact:website": "http://www.rewe.de/",
+        "name": "REWE",
+        "opening_hours": "Mo-Sa 7:00-22:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6241568,
+          51.9476759
+        ]
+      },
+      "id": "node/379677495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/442789526",
+        "name": "Penny",
+        "opening_hours": "Mo-Sa 08:00-21:00",
+        "shop": "supermarket",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6736995,
+          51.904085
+        ]
+      },
+      "id": "node/442789526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/474710247",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "149-151",
+        "addr:postcode": "48161",
+        "addr:street": "Rüschhausweg",
+        "contact:phone": "+49 251 866996",
+        "name": "Rewe Kaufpark Getränkemarkt",
+        "note:de": "Ehemals Aldi Nord",
+        "opening_hours": "Mo-Sa 08:00-22:00",
+        "ref": "71247",
+        "shop": "supermarket",
+        "website": "https://www.rewe-ihr-kaufpark.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5645194,
+          51.973131
+        ]
+      },
+      "id": "node/474710247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/474729310",
+        "name": "Netto",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6169925,
+          51.9494323
+        ]
+      },
+      "id": "node/474729310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/475254527",
+        "name": "Aldi",
+        "opening_hours": "Mo-Sa 08:00-21:00",
+        "shop": "supermarket",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5636846,
+          51.966704
+        ]
+      },
+      "id": "node/475254527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/475288998",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "48153",
+        "addr:street": "Robert-Bosch-Straße",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-21:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6314486,
+          51.9329723
+        ]
+      },
+      "id": "node/475288998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/489881000",
+        "name": "Rewe Kaufpark",
+        "opening_hours": "Mo-Fr 07:00-24:00, Sa 07:00-22:00",
+        "shop": "supermarket",
+        "website": "https://www.rewe-ihr-kaufpark.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5647083,
+          51.9732049
+        ]
+      },
+      "id": "node/489881000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/512622437",
+        "layer": "1",
+        "name": "Edeka Center",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6238094,
+          51.9026139
+        ]
+      },
+      "id": "node/512622437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/512622442",
+        "layer": "1",
+        "name": "Netto",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6246544,
+          51.9028261
+        ]
+      },
+      "id": "node/512622442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/525970882",
+        "addr:city": "Münster",
+        "addr:housenumber": "45",
+        "addr:postcode": "48163",
+        "addr:street": "Dülmener Straße",
+        "name": "Edeka",
+        "operator": "Möllers",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5198966,
+          51.924491
+        ]
+      },
+      "id": "node/525970882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/538948460",
+        "brand": "Penny",
+        "brand:wikidata": "Q284688",
+        "brand:wikipedia": "en:Penny (supermarket)",
+        "name": "Penny",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "shop": "supermarket",
+        "website": "https://www.penny.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6426113,
+          51.9531009
+        ]
+      },
+      "id": "node/538948460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/567477949",
+        "addr:city": "Münster",
+        "addr:housenumber": "55",
+        "addr:postcode": "48149",
+        "addr:street": "Rudolf-Harbig-Weg",
+        "name": "Studis",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa, Su 15:00-23:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5911388,
+          51.9750208
+        ]
+      },
+      "id": "node/567477949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/619103979",
+        "name": "REWE Ihr Kaufpark",
+        "opening_hours": "Mo-Sa 08:00-22:00",
+        "shop": "supermarket",
+        "website": "https://www.rewe-ihr-kaufpark.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6198942,
+          51.9519889
+        ]
+      },
+      "id": "node/619103979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/627865996",
+        "brand": "Aldi Nord",
+        "brand:wikidata": "Q41171373",
+        "brand:wikipedia": "en:Aldi",
+        "name": "Aldi Nord",
+        "opening_hours": "Mo-Sa 8:00-20:00",
+        "operator": "Aldi Nord",
+        "shop": "supermarket",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6300944,
+          51.9433152
+        ]
+      },
+      "id": "node/627865996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/630430883",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "126",
+        "addr:postcode": "48153",
+        "addr:street": "Hammer Straße",
+        "name": "SuperBioMarkt",
+        "operator": "SuperBioMarkt AG",
+        "organic": "yes",
+        "phone": "+49-251-754295",
+        "shop": "supermarket",
+        "source": "knowledge",
+        "website": "http://www.superbiomarkt.de/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6225376,
+          51.9452654
+        ]
+      },
+      "id": "node/630430883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/633159972",
+        "addr:city": "Münster",
+        "addr:housenumber": "34",
+        "addr:postcode": "48165",
+        "addr:street": "Hohe Geest",
+        "name": "K+K",
+        "opening_hours": "Mo-Sa 8:00-21:00",
+        "phone": "+49 251 787588",
+        "shop": "supermarket",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6399565,
+          51.9063924
+        ]
+      },
+      "id": "node/633159972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/638342813",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "48",
+        "addr:postcode": "48165",
+        "addr:street": "Marktallee",
+        "name": "SuperBioMarkt",
+        "opening_hours": "Mo-Fr 08:00-19:00, Sa 08:00-14:00",
+        "organic": "yes",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6450153,
+          51.9040855
+        ]
+      },
+      "id": "node/638342813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/662932312",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "22",
+        "addr:postcode": "48159",
+        "addr:street": "York-Ring",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "check_date": "2018-03-24",
+        "check_date:opening_hours": "2019-05-13",
+        "contact:website": "https://www.lidl.de/filialen/muenster/york-ring-22.html",
+        "currency:EUR": "yes",
+        "delivery": "no",
+        "fair_trade": "yes",
+        "level": "0",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su,PH off",
+        "operator": "Lidl Vertriebs-GmbH & Co. KG (Westerkappeln)",
+        "organic": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:girocard": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "ref:shop:num": "5673",
+        "shop": "supermarket",
+        "source:payment:contactless": "https://www.lidl.de/de/kontaktlos-bezahlen/s7374162",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6103299,
+          51.9738055
+        ]
+      },
+      "id": "node/662932312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/667079998",
+        "name": "Persian Market",
+        "shop": "supermarket",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6220868,
+          51.9555156
+        ]
+      },
+      "id": "node/667079998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/673249977",
+        "addr:city": "Münster",
+        "addr:housenumber": "22a",
+        "addr:postcode": "48163",
+        "addr:street": "Dülmener Straße",
+        "name": "Netto",
+        "shop": "supermarket",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5232121,
+          51.9252908
+        ]
+      },
+      "id": "node/673249977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/691766219",
+        "name": "Edeka",
+        "opening_hours": "Mo-Sa 08:00-21:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5798762,
+          51.9312478
+        ]
+      },
+      "id": "node/691766219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/736192508",
+        "addr:housenumber": "60",
+        "addr:street": "Wulfertstraße",
+        "name": "Netto",
+        "opening_hours": "Mo-Sa 07:00-21:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5349121,
+          51.9534073
+        ]
+      },
+      "id": "node/736192508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/790820771",
+        "name": "K&K",
+        "opening_hours": "Mo-Sa 08:00-21:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6062988,
+          51.8826758
+        ]
+      },
+      "id": "node/790820771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/829876959",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:postcode": "48163",
+        "addr:street": "Dingbängerweg",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-21:00",
+        "shop": "supermarket",
+        "source": "eigenes Wissen",
+        "website": "https://www.lidl.de/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5802713,
+          51.9296499
+        ]
+      },
+      "id": "node/829876959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/839242111",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:postcode": "48159",
+        "addr:street": "Dorpatweg",
+        "brand": "Rewe",
+        "brand:wikidata": "Q573266",
+        "check_date": "2018-03-19",
+        "check_date:opening_hours": "2018-03-19",
+        "contact:phone": "+49 251 7648030",
+        "contact:website": "https://www.rewe-ihr-kaufpark.de",
+        "currency:EUR": "yes",
+        "delivery": "no",
+        "fair_trade": "yes",
+        "level": "0",
+        "name": "Rewe Ihr Kaufpark",
+        "opening_hours": "Mo-Fr 07:00-24:00; Sa 07:00-22:00; Su,PH off",
+        "operator": "Michael Brücken Kaufpark GmbH & Co. OHG",
+        "organic": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:paypal": "yes",
+        "payment:visa": "yes",
+        "ref:shop:num": "71242",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6103051,
+          51.9765968
+        ]
+      },
+      "id": "node/839242111"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/858614339",
+        "fax": "+49 251 518654",
+        "name": "Edeka Rotthowe",
+        "opening_hours": "Mo-Sa 08:00-21:00",
+        "phone": "0251 56058",
+        "shop": "supermarket",
+        "website": "https://www.edeka.de/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6235981,
+          51.9606572
+        ]
+      },
+      "id": "node/858614339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/921238732",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "48155",
+        "addr:street": "Eulerstraße",
+        "name": "Fodi XL",
+        "phone": "+49-251-9158633",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6424765,
+          51.9377285
+        ]
+      },
+      "id": "node/921238732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/957059421",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "61a",
+        "addr:postcode": "48149",
+        "addr:street": "Grevener Straße",
+        "name": "Superbiomarkt",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-20:00",
+        "shop": "supermarket",
+        "source": "bing;NRW Atlas (ALK)",
+        "website": "http://www.superbiomarkt.de"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6118913,
+          51.9716407
+        ]
+      },
+      "id": "node/957059421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1082675303",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "83",
+        "addr:postcode": "48147",
+        "addr:street": "Gartenstraße",
+        "alt_name": "Wiewel-Markt an der Gartenstraße",
+        "name": "EDEKA",
+        "opening_hours": "Mo-Sa 08:00-22:00",
+        "shop": "supermarket",
+        "website": "https://www.wiewel.eu",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6353208,
+          51.9722091
+        ]
+      },
+      "id": "node/1082675303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1092306398",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:postcode": "48161",
+        "addr:street": "Rüschhausweg",
+        "email": "rueschhausweg.muenster@superbiomarkt.com",
+        "name": "Superbiomarkt",
+        "official_name": "SuperBioMarkt Gievenbeck Mitte",
+        "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-16:00",
+        "operator": "SuperBioMarkt AG",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5785646,
+          51.9677827
+        ]
+      },
+      "id": "node/1092306398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260539404",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "23",
+        "addr:postcode": "48159",
+        "addr:street": "Idenbrockplatz",
+        "name": "Woolworth",
+        "opening_hours": "Mo-Fr 09:00-19:00",
+        "shop": "supermarket",
+        "source": "lokal-knowledge",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6029124,
+          51.9955769
+        ]
+      },
+      "id": "node/1260539404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1493196333",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "39",
+        "addr:postcode": "48153",
+        "addr:street": "Hammer Straße",
+        "contact:phone": "+49 251 52093800",
+        "contact:website": "http://www.denns-biomarkt.de",
+        "name": "Denns' Biomarkt",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-20:00",
+        "organic": "only",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6257117,
+          51.9524815
+        ]
+      },
+      "id": "node/1493196333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1557160062",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "54",
+        "addr:postcode": "48149",
+        "addr:street": "Hüfferstraße",
+        "name": "Mehr Markt",
+        "opening_hours": "Mo-Fr 08:00-19:00; Sa 09:-00-14:30",
+        "shop": "supermarket",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6048895,
+          51.9607035
+        ]
+      },
+      "id": "node/1557160062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1560864864",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "11",
+        "addr:postcode": "48155",
+        "addr:street": "Wolbecker Straße",
+        "contact:website": "http://www.netto-online.de/",
+        "level": "0",
+        "name": "Netto",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "shop": "supermarket",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6376272,
+          51.958933
+        ]
+      },
+      "id": "node/1560864864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1561842385",
+        "name": "SuperBioMarkt",
+        "organic": "only",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6478251,
+          51.9642173
+        ]
+      },
+      "id": "node/1561842385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1577009010",
+        "addr:city": "Münster",
+        "addr:housenumber": "21",
+        "addr:street": "Robert-Bosch-Straße",
+        "brand": "Aldi Nord",
+        "brand:wikidata": "Q41171373",
+        "brand:wikipedia": "en:Aldi",
+        "name": "Aldi Nord",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "payment:cash": "yes",
+        "payment:girocard": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6350305,
+          51.937075
+        ]
+      },
+      "id": "node/1577009010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1619243630",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "66-68",
+        "addr:postcode": "48147",
+        "addr:street": "Bohlweg",
+        "name": "Aldi",
+        "operator": "Aldi Nord GmbH & Co. oHG",
+        "shop": "supermarket",
+        "website": "https://www.aldi.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6429202,
+          51.9667891
+        ]
+      },
+      "id": "node/1619243630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1639471556",
+        "name": "Aldi",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6573296,
+          51.9757547
+        ]
+      },
+      "id": "node/1639471556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1639514563",
+        "brand": "Rewe",
+        "brand:wikidata": "Q16968817",
+        "brand:wikipedia": "en:REWE",
+        "name": "Rewe",
+        "name:de": "Rewe - Ihr Kaufpark",
+        "name:en": "Rewe - Ihr Kaufpark",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa 07:00-22:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6584335,
+          51.9679315
+        ]
+      },
+      "id": "node/1639514563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1639515243",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "24",
+        "addr:postcode": "48145",
+        "addr:street": "Schifffahrter Damm",
+        "name": "Netto",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "operator": "Netto Marken-Discount AG & Co. KG",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.656715,
+          51.9683287
+        ]
+      },
+      "id": "node/1639515243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1795640507",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "4-8",
+        "addr:postcode": "48149",
+        "addr:street": "Catharina-Müller-Straße",
+        "brand": "Rewe",
+        "brand:wikidata": "Q573266",
+        "check_date": "2018-03-19",
+        "check_date:opening_hours": "2019-02-28",
+        "contact:phone": "+49 251 9225408",
+        "contact:website": "https://www.rewe.de/marktseite/rewe-markt-münster-catharina-müller-str.-4-8",
+        "currency:EUR": "yes",
+        "delivery": "no",
+        "fair_trade": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:operator": "Deutsche Telekom",
+        "internet_access:ssid": "-REWE gratis WLAN-",
+        "level": "0",
+        "name": "Rewe",
+        "opening_hours": "Mo-Sa 07:00-24:00; Su,PH off",
+        "operator": "Rewe Markt GmbH Zweigniederlassung West (Hürth)",
+        "organic": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:girocard": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:paypal": "yes",
+        "payment:sodexo": "yes",
+        "payment:token": "yes",
+        "payment:visa": "yes",
+        "ref:shop:num": "0430",
+        "shop": "supermarket",
+        "surveillance": "indoor",
+        "surveillance:type": "camera",
+        "surveillance:zone": "shop",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6110526,
+          51.9724201
+        ]
+      },
+      "id": "node/1795640507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1795653809",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "6",
+        "addr:postcode": "48149",
+        "addr:street": "Catharina-Müller-Straße",
+        "brand": "Aldi Nord",
+        "brand:wikidata": "Q125054",
+        "check_date": "2018-03-20",
+        "check_date:opening_hours": "2019-09-21",
+        "contact:website": "https://www.aldi-nord.de/tools/filialen-und-oeffnungszeiten/nordrhein-westfalen/muenster/catharina-mueller-strasse-6.html",
+        "currency:EUR": "yes",
+        "delivery": "no",
+        "fair_trade": "yes",
+        "level": "0",
+        "name": "Aldi",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su,PH off",
+        "operator": "Aldi GmbH & Co. KG (Greven)",
+        "organic": "yes",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:girocard": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:v_pay": "yes",
+        "payment:visa": "yes",
+        "ref:shop:num": "09045",
+        "shop": "supermarket",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6111126,
+          51.9727291
+        ]
+      },
+      "id": "node/1795653809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1836835312",
+        "addr:housenumber": "9",
+        "addr:street": "Schulte-Hermann-Straße",
+        "name": "K+K",
+        "opening_hours": "Mo-Sa 08:00-21:00",
+        "phone": "02534/9733780",
+        "shop": "supermarket",
+        "source": "survey",
+        "website": "https://www.klaas-und-kock.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5327392,
+          51.9534552
+        ]
+      },
+      "id": "node/1836835312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2084531526",
+        "name": "Aldi",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "recycling:batteries": "yes",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6400518,
+          51.8995663
+        ]
+      },
+      "id": "node/2084531526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2084531940",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "218",
+        "addr:postcode": "48165",
+        "addr:street": "Westfalenstraße",
+        "addr:suburb": "Hiltrup",
+        "name": "K+K",
+        "opening_hours": "Mo-Sa 7:00-22:00",
+        "phone": "+49 2501 928739",
+        "recycling:batteries": "yes",
+        "ref": "186",
+        "shop": "supermarket",
+        "website": "https://www.klaas-und-kock.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6402244,
+          51.8993005
+        ]
+      },
+      "id": "node/2084531940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2302343001",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "220-226",
+        "addr:postcode": "48155",
+        "addr:street": "Wolbecker Straße",
+        "name": "Netto",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6657057,
+          51.9516375
+        ]
+      },
+      "id": "node/2302343001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2530909459",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housename": "Münster-Arkaden Basement",
+        "addr:housenumber": "100",
+        "addr:postcode": "48143",
+        "addr:street": "Ludgeristraße",
+        "level": "-1",
+        "name": "SuperBioMarkt",
+        "operator": "SuperBioMarkt AG",
+        "organic": "only",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6268091,
+          51.9604132
+        ]
+      },
+      "id": "node/2530909459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2636465249",
+        "name": "Rewe",
+        "opening_hours": "Mo-Fr 07:00-24:00; Sa 07:00-22:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5810854,
+          51.9670794
+        ]
+      },
+      "id": "node/2636465249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2652536598",
+        "addr:city": "Münster",
+        "addr:housenumber": "35",
+        "addr:postcode": "48159",
+        "addr:street": "Sprakeler Straße",
+        "name": "Edeka",
+        "operator": "R. Hinnemann",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6202732,
+          52.038311
+        ]
+      },
+      "id": "node/2652536598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3398080224",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "153",
+        "addr:postcode": "48153",
+        "addr:street": "Hammer Straße",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:00-21:00",
+        "operator": "Lidl",
+        "shop": "supermarket",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6244924,
+          51.9427015
+        ]
+      },
+      "id": "node/3398080224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3439461673",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "143",
+        "addr:postcode": "48153",
+        "addr:street": "Friedrich-Ebert-Straße",
+        "alt_name": "Edeka",
+        "name": "Edeka Stroetmann",
+        "opening_hours": "Mo-Sa 08:00-22:00",
+        "operator": "Edeka",
+        "shop": "supermarket",
+        "website": "https://www.edeka.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6305473,
+          51.9440275
+        ]
+      },
+      "id": "node/3439461673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3457114765",
+        "name": "MS2",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6483204,
+          51.903953
+        ]
+      },
+      "id": "node/3457114765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4085098610",
+        "name": "Edeka Nientied",
+        "operator": "Edeka Nientied",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7029805,
+          51.987806
+        ]
+      },
+      "id": "node/4085098610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4085098611",
+        "name": "Edeka Rotthowe",
+        "operator": "Edeka Rotthowe",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6990308,
+          51.9892287
+        ]
+      },
+      "id": "node/4085098611"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4127074097",
+        "contact:phone": "+492511366577",
+        "name": "Slickertann Naturkost",
+        "opening_hours": "Mo-Fr 07:30-19:00; Sa 08:00-15:00",
+        "organic": "only",
+        "shop": "supermarket",
+        "website": "http://www.slickertann.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6513733,
+          51.9648634
+        ]
+      },
+      "id": "node/4127074097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4173137525",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:street": "Bergiusstraße",
+        "name": "Aldi",
+        "opening_hours": "Mo-Sa 8:00-21:00",
+        "operator": "ALDI Nord",
+        "shop": "supermarket",
+        "website": "https://www.aldi.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6531189,
+          51.9040873
+        ]
+      },
+      "id": "node/4173137525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4264966182",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "5",
+        "addr:postcode": "48165",
+        "addr:street": "Marktallee",
+        "addr:suburb": "Hiltrup",
+        "contact:phone": "+49 2501 964888",
+        "name": "Ural",
+        "opening_hours": "Mo-fr 9:00-19:00; Sa 8:00-18:00",
+        "shop": "supermarket",
+        "website": "http://www.ural-muenster.de",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6387132,
+          51.9028664
+        ]
+      },
+      "id": "node/4264966182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4519750709",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "46",
+        "addr:postcode": "48165",
+        "addr:street": "Osttor",
+        "name": "Netto",
+        "opening_hours": "Mo-Sa 07:00-21:00",
+        "shop": "supermarket",
+        "website": "https://www.netto-online.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6618662,
+          51.905517
+        ]
+      },
+      "id": "node/4519750709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4657225699",
+        "internet_access": "wlan",
+        "name": "Stroetmann GmbH Großhandel",
+        "shop": "supermarket",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5657863,
+          51.9220031
+        ]
+      },
+      "id": "node/4657225699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4752377856",
+        "name": "KODI",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6218566,
+          51.9586432
+        ]
+      },
+      "id": "node/4752377856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4865384662",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "3",
+        "addr:postcode": "48165",
+        "addr:street": "Bergiusstraße",
+        "addr:suburb": "Hiltrup",
+        "contact:phone": "+49 2501 5941600",
+        "name": "Edeka Wiewel",
+        "opening_hours": "Mo-Sa 07:00-21:00",
+        "shop": "supermarket",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6523662,
+          51.9048066
+        ]
+      },
+      "id": "node/4865384662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5114865807",
+        "addr:housenumber": "311",
+        "addr:street": "Hammer Straße",
+        "man_made": "surveillance",
+        "name": "REWE to go",
+        "shop": "supermarket",
+        "surveillance": "indoor",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6274068,
+          51.9317774
+        ]
+      },
+      "id": "node/5114865807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5284859997",
+        "email": "info@denns.de",
+        "level": "0",
+        "name": "denn's Biomarkt",
+        "opening_hours": "Mo-Sa 08:00-20:00; Su,PH off",
+        "operator": "denn's Biomarkt GmbH",
+        "organic": "only",
+        "phone": "+49 251 28418830",
+        "shop": "supermarket",
+        "website": "https://www.denns-biomarkt.de/muenster-grevener-str-85"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6117968,
+          51.9766495
+        ]
+      },
+      "id": "node/5284859997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5358859496",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "3",
+        "addr:postcode": "48165",
+        "addr:street": "Bergiusstraße",
+        "addr:suburb": "Hiltrup",
+        "name": "Kodi",
+        "opening_hours": "Mo-Fr 9:00-19:30; Sa 9:00-19:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6520473,
+          51.9048151
+        ]
+      },
+      "id": "node/5358859496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5931134250",
+        "addr:city": "Münster",
+        "addr:housenumber": "38",
+        "addr:postcode": "48145",
+        "addr:street": "Warendorfer Straße",
+        "email": "info@naturbaustoffe-linnemann.de",
+        "name": "Naturbaustoffe Linnemann",
+        "opening_hours": "Mo closed Di-Fr 10:00-18:00 Sa 10:00-13:00",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+49 251-490 95 88 0",
+        "shop": "supermarket",
+        "start_date": "16.09.2017",
+        "website": "www.naturbaustoffe-linnemann.de",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6448384,
+          51.962322
+        ]
+      },
+      "id": "node/5931134250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6757287685",
+        "name": "Edeka",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6219727,
+          51.9587224
+        ]
+      },
+      "id": "node/6757287685"
+    }
+  ]
+}

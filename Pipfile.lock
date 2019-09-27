@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "cc2b52c3f87e6c36bbe45c41d528e0dbc95c1333fc0435c59da8ddb14fa20845"
+            "sha256": "ab54bbb294370726257d559d207b31b18ede2f3ead09d8d540fbdeb0aa243356"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -40,11 +40,16 @@
         },
         "httptools": {
             "hashes": [
-                "sha256:3e9a6d6a53293ae002df2e3a300b599beda18af19d65d1bd5d65bfea48965400",
                 "sha256:e00cbd7ba01ff748e494248183abc6e153f49181169d8a3d41bb49132ca01dfc"
             ],
-            "markers": "sys_platform != 'win32' and sys_platform != 'cygwin' and platform_python_implementation != 'pypy'",
             "version": "==0.0.13"
+        },
+        "overpy": {
+            "hashes": [
+                "sha256:6e5bfcd9368f0c33a5d7615b18dbcac18444157f447639287c6743aa2de8964d"
+            ],
+            "index": "pypi",
+            "version": "==0.4"
         },
         "pydantic": {
             "hashes": [
@@ -59,7 +64,6 @@
         },
         "starlette": {
             "hashes": [
-                "sha256:bf53c18513c608f50c4b9495c5e48bd66c03de7f9a73ed92d44456b0479495c2",
                 "sha256:f600bf9d0beeeeebcb143e6d0c4f8858c2b05067d5a4feb446ba7400ba5e5dc5"
             ],
             "version": "==0.12.8"
@@ -81,7 +85,6 @@
                 "sha256:c63b6c0bf33144c604dd72f7eecf2d3a3ac7405c503c67bd98128cf306efe18a",
                 "sha256:e698a20a3b4ccb380d207f9d491d4085d7c38d364f6a0bae98684a1612a9607a"
             ],
-            "markers": "sys_platform != 'win32' and sys_platform != 'cygwin' and platform_python_implementation != 'pypy'",
             "version": "==0.13.0"
         },
         "websockets": {
