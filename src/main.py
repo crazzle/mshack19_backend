@@ -5,7 +5,7 @@ import numpy as np
 from fastapi import FastAPI, HTTPException
 
 from features import features, Feature
-from roles import preselected_roles
+from roles import preselected_roles, role_model
 
 app = FastAPI()
 # TODO sqlite database with anbindung an fastapi
@@ -13,14 +13,22 @@ app = FastAPI()
 
 @app.get("/features/", response_model=List[Feature])
 def features_route():
-    # TODO use classes from above
+    """
+    List of all features available with possible settings.
+    :return: List[Feature]
+    """
     return features
 
 
-@app.get("/preselected_features/{role}", responses={404: {}})  # responses={404: {"model": Message}}
+@app.get("/preselected_features/{role}", response_model=role_model, responses={404: {}})  # "model": role
 def preselected_features(role: str):
+    """
+    The preset of features for a specific role.
+    :param role: The role
+    :return: [feature, prio]
+    """
     if role in preselected_roles.keys():
-        # TODO use classes from above
+        # TODO use formatter for specific order of features
         return preselected_roles[role]
     else:
         raise HTTPException(status_code=404, detail=f"Role not in '{', '.join(preselected_roles.keys())}'")
