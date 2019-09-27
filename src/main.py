@@ -42,7 +42,7 @@ def preselcted_features(role: str):
         print(role)
         return preselected_roles[role]
     else:
-        raise HTTPException(status_code=404, detail=f"Role not in '{', '.join(roles)}'")
+        raise HTTPException(status_code=404, detail=f"Role not in '{', '.join(preselected_roles.keys())}'")
 
 
 @app.post("/search")
