@@ -24,13 +24,8 @@ class Feature(BaseModel):
     DESCRIPTION: str
 
 
-@app.get("/")
-def read_root():
-    return {"Hello": "World"}
-
-
 @app.get("/features")
-def features(response_model=List[Feature]):
+def features_route(response_model=List[Feature]):
     # TODO use classes from above
     return features
 
@@ -39,7 +34,6 @@ def features(response_model=List[Feature]):
 def preselected_features(role: str):
     if role in preselected_roles.keys():
         # TODO use classes from above
-        print(role)
         return preselected_roles[role]
     else:
         raise HTTPException(status_code=404, detail=f"Role not in '{', '.join(preselected_roles.keys())}'")
