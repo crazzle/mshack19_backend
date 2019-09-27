@@ -1,7 +1,7 @@
 import math
 import csv
 import numpy as np
-
+import os.path
 
 def km_to_long(lat, km):
     return km / (111.320*math.cos(math.radians(lat)))
@@ -39,8 +39,8 @@ def gengrid(x, y, stepsize):
             currentlongdg = km_to_long(currentlatdg, longkm)
 
             list.append([currentlatdg, currentlongdg])
-
-    with open("latlonggrid.csv", "w", newline="") as f:
+    path = os.path.join("..", "..", "datasets/latlonggrid.csv")
+    with open(path, "w", newline="") as f:
         writer = csv.writer(f)
         writer.writerows(list)
 
