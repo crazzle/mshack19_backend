@@ -46,4 +46,4 @@ def gengrid(x, y, stepsize):
 
 
 if __name__ == "__main__":
-    gengrid(30, 30, 1)
+    gengrid(30, 30, 0.5)
