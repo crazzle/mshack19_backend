@@ -3,31 +3,16 @@ from typing import List
 
 import numpy as np
 from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
 
-from features import features
+from features import features, Feature
 from roles import preselected_roles
 
 app = FastAPI()
-
-
 # TODO sqlite database with anbindung an fastapi
 
 
-class Prio(BaseModel):
-    VALUE: str
-    LABEL: str
-
-
-class Feature(BaseModel):
-    ID: str
-    LABEL: str
-    PRIORITIES: Prio
-    DESCRIPTION: str
-
-
-@app.get("/features")
-def features_route():  # response_model=List[Feature]
+@app.get("/features/", response_model=List[Feature])
+def features_route():
     # TODO use classes from above
     return features
 
@@ -46,7 +31,7 @@ def search(query=[]):
     """
     Search based on preferences (e.g. features) returning the heatmap.
 
-    :param query: [{feature: value}], empty means, all to default.
+    :param query: [{feature: prio}], empty means, all to default.
     :return: heatmap
     """
     """
