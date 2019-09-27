@@ -38,12 +38,12 @@ def gengrid(x, y, stepsize):
             currentlatdg = km_to_lat(latkm)
             currentlongdg = km_to_long(currentlatdg, longkm)
 
-            list.append([currentlatdg, currentlongdg])
-    path = os.path.join("..", "..", "datasets/latlonggrid.csv")
+            list.append([currentlongdg, currentlatdg])
+    path = os.path.join("..", "..", "datasets/longlatgrid.csv")
     with open(path, "w", newline="") as f:
         writer = csv.writer(f)
         writer.writerows(list)
 
 
 if __name__ == "__main__":
-    gengrid(30, 30, 0.5)
+    gengrid(30, 30, 1)
