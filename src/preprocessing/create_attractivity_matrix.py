@@ -20,7 +20,6 @@ feature_range = {BUS: 0.5,
 
 def attractiviy_matrix():
     position_data = pd.read_csv("../datasets/" + longlatfile)
-    position_data = position_data[:1000]
 
     for preprocfile in preprocessedfiles:
         activity_data = pd.read_csv("../datasets/" + preprocfile)
