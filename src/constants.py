@@ -1,0 +1,8 @@
+ID = "id"
+LABEL = "label"
+PRIORITIES = "priorities"
+DESCRIPTION = "description"
+VALUE = "value"
+STUDENT = "student"
+FAMILY = "family"
+BUSINESS = "business"
