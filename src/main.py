@@ -4,6 +4,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
 from features import features
+from roles import preselected_roles
 
 app = FastAPI()
 
@@ -23,8 +24,6 @@ class Feature(BaseModel):
     DESCRIPTION: str
 
 
-roles = ["student", "family", "business"]
-
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
@@ -36,21 +35,12 @@ def features(response_model=List[Feature]):
     return features
 
 
-preselected_roles = {
-    "near_university": 3,
-    "shops": 3,
-    "nightlife": 3,
-    "public_transport": 3,
-    "avg_cost": 3
-}
-
-
 @app.get("/preselcted_features/{role}")
 def preselcted_features(role: str):
-    if role in roles:
+    if role in preselected_roles.keys():
         # TODO use classes from above
         print(role)
-        return preselected_roles
+        return preselected_roles[role]
     else:
         raise HTTPException(status_code=404, detail=f"Role not in '{', '.join(roles)}'")
 
