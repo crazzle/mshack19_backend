@@ -55,8 +55,18 @@ def read_item(role: str):
         raise HTTPException(status_code=404, detail=f"Role not in '{', '.join(roles)}'")
 
 
-@app.post("/search")
-def read_item(query: str):
-    # TODO use classes from above
-    # selectedlist(feature: value) -> heatmap
-    return {}
+@app.get("/search")
+def search(features):
+    import numpy as np
+    import json
+
+    """
+    Magic happens here
+    """
+    raw = np.genfromtxt('datasets/latlonggrid.csv', delimiter=',')
+    weighted = np.zeros((900,3))  
+    weighted[:,:-1] = raw
+    for w in range(900):
+        weighted[w,2] = w/900
+
+    return json.dumps(weighted.tolist())
