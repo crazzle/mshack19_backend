@@ -31,7 +31,7 @@ def read_root():
 
 
 @app.get("/features")
-def read_item(response_model=List[Feature]):
+def features(response_model=List[Feature]):
     # TODO use classes from above
     return features
 
@@ -46,7 +46,7 @@ preselected_roles = {
 
 
 @app.get("/preselcted_features/{role}")
-def read_item(role: str):
+def preselcted_features(role: str):
     if role in roles:
         # TODO use classes from above
         print(role)
