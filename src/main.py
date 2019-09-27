@@ -35,8 +35,8 @@ def features(response_model=List[Feature]):
     return features
 
 
-@app.get("/preselcted_features/{role}")
-def preselcted_features(role: str):
+@app.get("/preselected_features/{role}")
+def preselected_features(role: str):
     if role in preselected_roles.keys():
         # TODO use classes from above
         print(role)
