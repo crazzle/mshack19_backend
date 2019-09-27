@@ -1,6 +1,7 @@
 import pathlib
 from typing import List
 
+import numpy as np
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
@@ -26,12 +27,12 @@ class Feature(BaseModel):
 
 
 @app.get("/features")
-def features_route(response_model=List[Feature]):
+def features_route():  # response_model=List[Feature]
     # TODO use classes from above
     return features
 
 
-@app.get("/preselected_features/{role}")
+@app.get("/preselected_features/{role}", responses={404: {}})  # responses={404: {"model": Message}}
 def preselected_features(role: str):
     if role in preselected_roles.keys():
         # TODO use classes from above
@@ -41,9 +42,13 @@ def preselected_features(role: str):
 
 
 @app.get("/search")
-def search(features=[]):
-    import numpy as np
+def search(query=[]):
+    """
+    Search based on preferences (e.g. features) returning the heatmap.
 
+    :param query: [{feature: value}], empty means, all to default.
+    :return: heatmap
+    """
     """
     Magic happens here
     """
