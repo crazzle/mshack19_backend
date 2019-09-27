@@ -1,3 +1,4 @@
+import pathlib
 from typing import List
 
 from fastapi import FastAPI, HTTPException
@@ -40,17 +41,17 @@ def preselected_features(role: str):
 
 
 @app.get("/search")
-def search(features):
+def search(features=[]):
     import numpy as np
-    import json
 
     """
     Magic happens here
     """
-    raw = np.genfromtxt('datasets/latlonggrid.csv', delimiter=',')
-    weighted = np.zeros((900,3))  
-    weighted[:,:-1] = raw
+    long_lat_file = pathlib.Path.cwd().parent.joinpath('datasets', 'longlatgrid.csv')
+    raw = np.genfromtxt(long_lat_file, delimiter=',')
+    weighted = np.zeros((900, 3))
+    weighted[:, :-1] = raw
     for w in range(900):
-        weighted[w,2] = w/900
+        weighted[w, 2] = w / 900
 
-    return json.dumps(weighted.tolist())
+    return weighted.tolist()
