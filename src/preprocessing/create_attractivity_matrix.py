@@ -25,7 +25,7 @@ def haversine(p1, p2):
 
 
 
-longlatfile = "longlatgrid.csv"
+longlatfile = "longlatgrid2.csv"
 
 BUS = "bus_stop_preprocessed.csv"
 NIGHTLIFE = "nightlife_preprocessed.csv"
