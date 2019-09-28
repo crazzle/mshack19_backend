@@ -2,7 +2,6 @@ import json
 import pathlib
 from typing import List
 
-import numpy as np
 from fastapi import FastAPI, HTTPException, Body
 from starlette.middleware.cors import CORSMiddleware
 
@@ -31,8 +30,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-# TODO sqlite database with anbindung an fastapi
 
 
 @app.get("/features/", response_model=List[Feature])
@@ -96,7 +93,7 @@ def search(
         """)
         std_heat = db.cursor.fetchall()
 
-    # TODO map via sqlalchemy
+    # TODO sqlite database with anbindung an fastapi
     table_map = {
         "public_transport": 2,
         "nightlife": 3,
@@ -109,7 +106,6 @@ def search(
     for table_data in std_heat:
         weight = 0
         for feature_name, feature_weight in query.items():
-            # TODO map table index to query param -> pydantic
             """
             Magic happens here
             """
@@ -117,16 +113,7 @@ def search(
                 table_weight = table_data[table_map[feature_name]]
                 if type(table_weight) == float or type(table_weight) == int:
                     weight += feature_weight * table_data[table_map[feature_name]]
+        weight = weight / len(table_map.keys())
         heatmap.append([table_data[0], table_data[1], weight])
-
-    if False:
-        long_lat_file = pathlib.Path.cwd().parent.joinpath('datasets', 'longlatgrid.csv')
-        raw = np.genfromtxt(long_lat_file, delimiter=',')
-        weighted = np.zeros((3600, 3))
-        weighted[:, :-1] = raw
-        for w in range(3600):
-            weighted[w, 2] = w / 900
-
-        return weighted.tolist()
 
     return heatmap
