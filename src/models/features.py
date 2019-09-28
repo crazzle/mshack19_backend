@@ -24,11 +24,9 @@ class Features(BaseModel):
 
 
 std_prios = [
-    Prio(value=1, label="sehr niedrig"),
-    Prio(value=2, label="niedrig"),
-    Prio(value=3, label="mittel"),
-    Prio(value=4, label="hoch"),
-    Prio(value=5, label="sehr hoch"),
+    Prio(value=1, label="niedrig"),
+    Prio(value=2, label="mittel"),
+    Prio(value=3, label="hoch"),
 ]
 
 nightlife_prios = [
