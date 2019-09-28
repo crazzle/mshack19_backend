@@ -2,13 +2,35 @@ import pathlib
 from typing import List
 
 import numpy as np
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Body
+from starlette.middleware.cors import CORSMiddleware
 
 from models.database import DatabaseConnection
 from models.features import features, Feature
 from models.roles import preselected_roles, role_model
 
 app = FastAPI()
+
+
+origins = [
+    "http://localhost",
+    "http://localhost:8080",
+    "http://localhost:8000",
+    "http://localhost:4200",
+    "http://127.0.0.1",
+    "http://127.0.0.1:8080",
+    "http://127.0.0.1:8000",
+    "http://127.0.0.1:4200",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 # TODO sqlite database with anbindung an fastapi
 
 
