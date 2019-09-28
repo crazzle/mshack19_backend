@@ -105,6 +105,8 @@ def search(
         DISTRICT: 7
     }
 
+    filter_norm = [PUBLIC_TRANSPORT, NIGHTLIFE, SHOPS, NEAR_UNIVERSITY, AVG_COST]
+
     query: dict = json.loads(query)
     for table_data in std_heat:
         weight = 0
@@ -119,8 +121,16 @@ def search(
             if feature_name in table_map.keys():
                 table_weight = table_data[table_map[feature_name]]
                 if type(table_weight) == float or type(table_weight) == int:
-                    weight += feature_weight * table_data[table_map[feature_name]]
-        weight = weight / len(table_map.keys())
+                    if feature_name == AVG_COST:
+                        #weight += 1 / (feature_weight * table_data[table_map[feature_name]])
+                        avg_norm = feature_weight * table_data[table_map[feature_name]]
+                        if weight > avg_norm:
+                            weight -= avg_norm
+                    elif feature_name == NEAR_UNIVERSITY:
+                        weight += feature_weight * table_data[table_map[feature_name]] * 0.7
+                    else:
+                        weight += feature_weight * table_data[table_map[feature_name]]
+        weight = weight / len(filter_norm)
         heatmap.append([table_data[0], table_data[1], weight, table_data[table_map[DISTRICT]]])
 
     return heatmap
