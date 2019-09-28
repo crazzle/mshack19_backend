@@ -41,7 +41,20 @@ feature_range = {BUS: 0.5,
                   NIGHTLIFE: 1,
                   SUPERMARKT: 2,
                   UNIVERSITY: 3}
+
+db_name_mapping = {
+    BUS : "public_transport",
+    NIGHTLIFE : "nightlife",
+    SUPERMARKT : "shops",
+    UNIVERSITY : "university",
+}
 crs = {'init': 'epsg:5243'}
+
+
+def create_act_gdf(preprocfile):
+    data = pd.read_csv("../datasets/" + preprocfile)
+    geom = [Point(xy) for xy in zip(data.Long, data.Lat)]
+    return GeoDataFrame(data.Name, crs=crs, geometry=geom)
 
 
 def attractivity_matrix():
@@ -49,21 +62,27 @@ def attractivity_matrix():
     pois_geom = [Point(xy) for xy in zip(pois.iloc[:,0], pois.iloc[:,1])]
     pois_gdf = GeoDataFrame(None, crs=crs, geometry=pois_geom)
 
-    for preprocfile in preprocessedfiles:
-        activity_data = pd.read_csv("../datasets/" + preprocfile)
-        act_geom = [Point(xy) for xy in zip(activity_data.Long, activity_data.Lat)]
-        act_gdf = GeoDataFrame(activity_data.Name, crs=crs, geometry=act_geom)
+    bus_gdf = create_act_gdf(BUS)
+    nightlife_gdf = create_act_gdf(NIGHTLIFE)
+    supermarkt_gdf = create_act_gdf(SUPERMARKT)
+    university_gdf = create_act_gdf(UNIVERSITY)
 
-        data = pd.DataFrame(None, index=range(len(pois)), columns=["Value", "Lat", "Long"])
-        for (i, poi) in pois_gdf.itertuples():
-            data.iloc[i] = [
-                len(act_gdf[act_gdf["geometry"].apply(lambda x: haversine(x, poi)) < feature_range[preprocfile]]),
-                poi.x,
-                poi.y,
-            ]
-            print(data.iloc[i])
+    data = pd.DataFrame(None, index=range(len(pois)), columns=[
+        "Lat", "Long", "public_transport", "nightlife", "shops", "near_university", "avg_cost"
+    ])
+    for (i, poi) in pois_gdf.itertuples():
+        data.iloc[i] = [
+            poi.y,
+            poi.x,
+            len(bus_gdf[bus_gdf["geometry"].apply(lambda x: haversine(x, poi)) < feature_range[BUS]]),
+            len(nightlife_gdf[nightlife_gdf["geometry"].apply(lambda x: haversine(x, poi)) < feature_range[NIGHTLIFE]]),
+            len(supermarkt_gdf[supermarkt_gdf["geometry"].apply(lambda x: haversine(x, poi)) < feature_range[SUPERMARKT]]),
+            len(university_gdf[university_gdf["geometry"].apply(lambda x: haversine(x, poi)) < feature_range[UNIVERSITY]]),
+            0
+        ]
+        print(data.iloc[i])
 
-        with open("../datasets/" + "final_" + preprocfile, "w") as f:
+        with open("../datasets/" + "final.csv", "w") as f:
             data.to_csv(f, index=False)
 
 
