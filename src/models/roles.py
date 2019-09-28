@@ -26,26 +26,26 @@ if False:
 
 preselected_roles = {
     STUDENT: {
-        "nightlife": 5,
-        "avg_cost": 5,
-        "near_university": 4,
-        "shops": 4,
-        "public_transport": 4,
+        NIGHTLIFE: 5,
+        AVG_COST: 5,
+        NEAR_UNIVERSITY: 4,
+        SHOPS: 4,
+        PUBLIC_TRANSPORT: 4,
 
     },
     FAMILY: {
-        "shops": 4,
-        "public_transport": 4,
-        "avg_cost": 4,
-        "nightlife": 2,
-        "near_university": 1,
+        SHOPS: 4,
+        PUBLIC_TRANSPORT: 4,
+        AVG_COST: 4,
+        NIGHTLIFE: 2,
+        NEAR_UNIVERSITY: 1,
     },
     BUSINESS: {
-        "avg_cost": 3,
-        "public_transport": 3,
-        "shops": 2,
-        "near_university": 1,
-        "nightlife": 1,
+        AVG_COST: 3,
+        PUBLIC_TRANSPORT: 3,
+        SHOPS: 2,
+        NEAR_UNIVERSITY: 1,
+        NIGHTLIFE: 1,
 
     }
 }
