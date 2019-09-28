@@ -3,6 +3,7 @@ import csv
 import numpy as np
 import os.path
 
+
 def km_to_long(lat, km):
     return km / (111.320*math.cos(math.radians(lat)))
 
@@ -30,20 +31,20 @@ def gengrid(x, y, stepsize):
     list = []
 
     center_km = (lat_to_km(center_deg[0]), long_to_km(center_deg[0], center_deg[1]))
-    top_left = (center_km[0] - grid_size[0] / 2, center_km[1] - grid_size[1] / 2)
-    bottom_right = (center_km[0] + grid_size[0] / 2, center_km[1] + grid_size[1] / 2)
+    bottom_left = (center_km[0] - grid_size[0] / 2, center_km[1] - grid_size[1] / 2)
+    top_right = (center_km[0] + grid_size[0] / 2, center_km[1] + grid_size[1] / 2)
 
-    for latkm in np.arange(int(top_left[0]), int(bottom_right[0]), stepsize):
-        for longkm in np.arange(int(top_left[1]), int(bottom_right[1]), stepsize):
+    for latkm in np.arange(int(bottom_left[0]), int(top_right[0]), stepsize):
+        for longkm in np.arange(int(bottom_left[1]), int(top_right[1]), stepsize):
             currentlatdg = km_to_lat(latkm)
             currentlongdg = km_to_long(currentlatdg, longkm)
 
             list.append([currentlongdg, currentlatdg])
-    path = os.path.join("..", "..", "datasets/longlatgrid.csv")
+    path = os.path.join("..", "..", "datasets/longlatgrid2.csv")
     with open(path, "w", newline="") as f:
         writer = csv.writer(f)
         writer.writerows(list)
 
 
 if __name__ == "__main__":
-    gengrid(30, 30, 0.5)
+    gengrid(12, 12, 0.1)
