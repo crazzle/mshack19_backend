@@ -13,17 +13,21 @@ cur = conn.cursor()
 
 # bevoelkerungsindikatoren_haushalte
 cur.execute("""
-    create table person(
-            name,
-            attribute
+    create table standard_heat(
+            long,
+            lat,
+            busstops,
+            nightlife,
+            supermarket,
+            university
         )
 """)
-data = [
-    ('foo', '123'),
-    ('bar', '456'),
-    ('baz', '789'),
-]
-cur.executemany('INSERT INTO person VALUES (?,?)', data)
+# data = [
+#     ('foo', '123'),
+#     ('bar', '456'),
+#     ('baz', '789'),
+# ]
+cur.executemany('INSERT INTO standard_heat VALUES (?,?)', data)
 conn.commit()
 
 # kita_ms
