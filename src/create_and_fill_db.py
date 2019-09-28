@@ -1,6 +1,7 @@
 import pathlib
 
 from models.database import DatabaseConnection
+import pandas as pd
 
 """
 delete db and recreate it
@@ -11,11 +12,13 @@ pathlib.Path.unlink(db_file)  # THIS DELETES THE DB
 
 db = DatabaseConnection(db_file)
 
+data = pd.read_csv("../datasets/final.csv")
+
 with db:
     db.cursor.execute("""
         create table standard_heat(
-                long,
                 lat,
+                long,
                 public_transport,
                 nightlife,
                 shops,
@@ -23,13 +26,5 @@ with db:
                 avg_cost
             )
     """)
-    data = [
-        (7.389923121825148, 51.82050029844267, 1, 22, 4, 1, 0),
-        (7.389923121825148, 51.82050029844267, 10, 15, 18, 13, 0),
-        (7.389923121825148, 51.82050029844267, 12, 13, 10, 14, 0),
-        (7.389923121825148, 51.82050029844267, 19, 9, 14, 20, 0),
-        (7.389923121825148, 51.82050029844267, 4, 7, 6, 23, 0),
-        (7.389923121825148, 51.82050029844267, 6, 3, 15, 20, 0),
-    ]
-    db.cursor.executemany('INSERT INTO standard_heat VALUES (?,?,?,?,?,?,?)', data)
+    db.cursor.executemany('INSERT INTO standard_heat VALUES (?,?,?,?,?,?,?)', data.values.tolist())
     db.connection.commit()
