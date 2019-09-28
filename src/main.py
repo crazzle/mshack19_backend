@@ -8,6 +8,7 @@ from starlette.middleware.cors import CORSMiddleware
 from models.database import DatabaseConnection
 from models.features import features, Feature, Features
 from models.roles import preselected_roles, role_model
+from constants import *
 
 app = FastAPI()
 
@@ -106,6 +107,10 @@ def search(
     for table_data in std_heat:
         weight = 0
         for feature_name, feature_weight in query.items():
+            if feature_name == NIGHTLIFE:
+                feature_weight = feature_weight / 3
+            else:
+                feature_weight = feature_weight / 5
             """
             Magic happens here
             """
