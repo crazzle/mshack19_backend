@@ -58,7 +58,7 @@ def preselected_features(role: str):
         raise HTTPException(status_code=404, detail=f"Role not in '{', '.join(preselected_roles.keys())}'")
 
 
-@app.get("/search/")
+@app.get("/search")
 def search(
         query
         # query: Features = Body(
@@ -114,7 +114,8 @@ def search(
             Magic happens here
             """
             if feature_name in table_map.keys():
-                weight += feature_weight * table_data[table_map[feature_name]]
+                # weight += feature_weight * table_data[table_map[feature_name]]
+                pass
         heatmap.append([table_data[0], table_data[1], weight])
 
     if False:
