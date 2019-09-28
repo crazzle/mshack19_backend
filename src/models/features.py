@@ -15,6 +15,14 @@ class Feature(BaseModel):
     description: str
 
 
+class Features(BaseModel):
+    public_transport: int
+    nightlife: int
+    shops: int
+    near_university: int
+    avg_cost: int
+
+
 std_prios = [
     Prio(value=1, label="sehr niedrig"),
     Prio(value=2, label="niedrig"),
