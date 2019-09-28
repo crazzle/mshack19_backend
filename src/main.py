@@ -89,18 +89,20 @@ def search(
                     nightlife,
                     shops,
                     near_university,
-                    avg_cost
+                    avg_cost,
+                    district
             FROM main.standard_heat
         """)
         std_heat = db.cursor.fetchall()
 
     # TODO sqlite database with anbindung an fastapi
     table_map = {
-        "public_transport": 2,
-        "nightlife": 3,
-        "shops": 4,
-        "near_university": 5,
-        "avg_cost": 6
+        PUBLIC_TRANSPORT: 2,
+        NIGHTLIFE: 3,
+        SHOPS: 4,
+        NEAR_UNIVERSITY: 5,
+        AVG_COST: 6,
+        DISTRICT: 7
     }
 
     query: dict = json.loads(query)
@@ -119,6 +121,6 @@ def search(
                 if type(table_weight) == float or type(table_weight) == int:
                     weight += feature_weight * table_data[table_map[feature_name]]
         weight = weight / len(table_map.keys())
-        heatmap.append([table_data[0], table_data[1], weight])
+        heatmap.append([table_data[0], table_data[1], weight, table_data[table_map[DISTRICT]]])
 
     return heatmap

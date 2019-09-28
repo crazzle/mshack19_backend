@@ -31,7 +31,6 @@ preselected_roles = {
         NEAR_UNIVERSITY: 4,
         SHOPS: 4,
         PUBLIC_TRANSPORT: 4,
-
     },
     FAMILY: {
         SHOPS: 4,
