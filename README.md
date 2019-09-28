@@ -3,13 +3,15 @@
 ## setup
 
 ```
+pipenv shell
+# now the shell promt should have changed
 pipenv install
 ```
 
 ## develop
 
 ```
-pipenv shell
+pipenv shell # only if not already in a pipenv shell
 cd src/
 uvicorn main:app --reload
 ```
