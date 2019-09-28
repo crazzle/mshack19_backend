@@ -114,8 +114,9 @@ def search(
             Magic happens here
             """
             if feature_name in table_map.keys():
-                # weight += feature_weight * table_data[table_map[feature_name]]
-                pass
+                table_weight = table_data[table_map[feature_name]]
+                if type(table_weight) == float or type(table_weight) == int:
+                    weight += feature_weight * table_data[table_map[feature_name]]
         heatmap.append([table_data[0], table_data[1], weight])
 
     if False:
