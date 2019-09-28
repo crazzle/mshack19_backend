@@ -13,13 +13,13 @@ def normalize(s):
 
 
 db_file = pathlib.Path.cwd().parent.joinpath('database', 'features.db')
-pathlib.Path.unlink(db_file)  # THIS DELETES THE DB
+#pathlib.Path.unlink(db_file)  # THIS DELETES THE DB
 
 db = DatabaseConnection(db_file)
 
 data = pd.read_csv("../datasets/final.csv")
-data[["public_transport","nightlife","shops","near_university","avg_cost"]] = \
-    data[["public_transport","nightlife","shops","near_university","avg_cost"]].apply(normalize, axis=0)
+data[["public_transport","nightlife","shops","near_university"]] = \
+    data[["public_transport","nightlife","shops","near_university"]].apply(normalize, axis=0)
 bwr_data = pd.read_csv("../datasets/final_bwrs.csv")
 data[["avg_cost", "district"]] = bwr_data
 

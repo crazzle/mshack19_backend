@@ -56,10 +56,10 @@ preprocessedfiles = [BUS,
                     SUPERMARKT,
                     UNIVERSITY]
 
-feature_range = {BUS: 0.5,
-                  NIGHTLIFE: 1,
-                  SUPERMARKT: 2,
-                  UNIVERSITY: 3}
+feature_range = {BUS: 0.2,
+                  NIGHTLIFE: 0.5,
+                  SUPERMARKT: 1,
+                  UNIVERSITY: 1}
 
 db_name_mapping = {
     BUS : "public_transport",
@@ -81,31 +81,29 @@ def attractivity_matrix():
     pois_geom = [Point(xy) for xy in zip(pois.iloc[:,0], pois.iloc[:,1])]
     pois_gdf = GeoDataFrame(None, crs=crs, geometry=pois_geom)
 
-    # bus_gdf = create_act_gdf(BUS)
-    # nightlife_gdf = create_act_gdf(NIGHTLIFE)
-    # supermarkt_gdf = create_act_gdf(SUPERMARKT)
-    # university_gdf = create_act_gdf(UNIVERSITY)
+    bus_gdf = create_act_gdf(BUS)
+    nightlife_gdf = create_act_gdf(NIGHTLIFE)
+    supermarkt_gdf = create_act_gdf(SUPERMARKT)
+    university_gdf = create_act_gdf(UNIVERSITY)
 
-    # data = pd.DataFrame(None, index=range(len(pois)), columns=[
-    #     "Lat", "Long", "public_transport", "nightlife", "shops", "near_university", "avg_cost", "district"
-    # ])
-    data = pd.DataFrame(None, index=range(len(pois)), columns=["avg_cost", "district"])
+    data = pd.DataFrame(None, index=range(len(pois)), columns=[
+        "Lat", "Long", "public_transport", "nightlife", "shops", "near_university"
+    ])
+    #data = pd.DataFrame(None, index=range(len(pois)), columns=["avg_cost", "district"])
     for (i, poi) in pois_gdf.itertuples():
-        bwr, ortst = polygon_check(poi.x, poi.y)
+        #bwr, ortst = polygon_check(poi.x, poi.y)
 
         data.iloc[i] = [
-            # poi.y,
-            # poi.x,
-            # len(bus_gdf[bus_gdf["geometry"].apply(lambda x: haversine(x, poi)) < feature_range[BUS]]),
-            # len(nightlife_gdf[nightlife_gdf["geometry"].apply(lambda x: haversine(x, poi)) < feature_range[NIGHTLIFE]]),
-            # len(supermarkt_gdf[supermarkt_gdf["geometry"].apply(lambda x: haversine(x, poi)) < feature_range[SUPERMARKT]]),
-            # len(university_gdf[university_gdf["geometry"].apply(lambda x: haversine(x, poi)) < feature_range[UNIVERSITY]]),
-            bwr,
-            ortst,
+            poi.y,
+            poi.x,
+            len(bus_gdf[bus_gdf["geometry"].apply(lambda x: haversine(x, poi)) < feature_range[BUS]]),
+            len(nightlife_gdf[nightlife_gdf["geometry"].apply(lambda x: haversine(x, poi)) < feature_range[NIGHTLIFE]]),
+            len(supermarkt_gdf[supermarkt_gdf["geometry"].apply(lambda x: haversine(x, poi)) < feature_range[SUPERMARKT]]),
+            len(university_gdf[university_gdf["geometry"].apply(lambda x: haversine(x, poi)) < feature_range[UNIVERSITY]]),
         ]
-        print(data.iloc[i])
+        print(i)
 
-    with open("../datasets/" + "final_bwrs2.csv", "w") as f:
+    with open("../datasets/" + "final.csv", "w") as f:
         data.to_csv(f, index=False)
 
 
